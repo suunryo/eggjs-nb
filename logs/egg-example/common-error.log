@@ -1,0 +1,439 @@
+2018-05-24 19:47:43,238 ERROR 3824 [-/::1/-/8ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find /view/news/list.tpl from D:\Program Files\demo\egg-example\app\view
+    at Map.resolve (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 3824
+hostname: PAFSH-D1154
+
+2018-05-24 19:48:14,529 ERROR 3824 [-/::1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find /view/news/list.tpl from D:\Program Files\demo\egg-example\app\view
+    at Map.resolve (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\view_manager.js:74:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: undefined
+expected: true
+operator: '=='
+pid: 3824
+hostname: PAFSH-D1154
+
+2018-05-24 19:48:51,971 ERROR 7816 [-/::1/-/6ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 7816
+hostname: PAFSH-D1154
+
+2018-05-24 19:48:59,165 ERROR 7816 [-/::1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 7816
+hostname: PAFSH-D1154
+
+2018-05-24 19:49:28,089 ERROR 6816 [-/::1/-/9ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 6816
+hostname: PAFSH-D1154
+
+2018-05-24 19:50:00,816 ERROR 6816 [-/::1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 6816
+hostname: PAFSH-D1154
+
+2018-05-24 19:50:07,103 ERROR 6816 [-/::1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 6816
+hostname: PAFSH-D1154
+
+2018-05-24 19:51:42,989 ERROR 5280 [-/::1/-/3ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 5280
+hostname: PAFSH-D1154
+
+2018-05-24 19:52:21,348 ERROR 5280 [-/::1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 5280
+hostname: PAFSH-D1154
+
+2018-05-24 19:52:22,188 ERROR 5280 [-/::1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 5280
+hostname: PAFSH-D1154
+
+2018-05-24 19:52:22,333 ERROR 5280 [-/::1/-/2ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 5280
+hostname: PAFSH-D1154
+
+2018-05-24 19:52:22,654 ERROR 5280 [-/::1/-/1ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 5280
+hostname: PAFSH-D1154
+
+2018-05-24 19:52:55,292 ERROR 6276 [-/::1/-/7ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 6276
+hostname: PAFSH-D1154
+
+2018-05-24 19:55:18,696 ERROR 1440 [-/::1/-/7ms GET /news] nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for D:\Program Files\demo\egg-example\app\view\news\list.tpl
+    at ContextView.[contextView#render] (D:\Program Files\demo\egg-example\node_modules\egg-view\lib\context_view.js:66:5)
+    at <anonymous>
+generatedMessage: false
+name: 'AssertionError [ERR_ASSERTION]'
+code: 'ERR_ASSERTION'
+actual: ''
+expected: true
+operator: '=='
+pid: 1440
+hostname: PAFSH-D1154
+
+2018-05-24 20:08:54,877 ERROR 6412 [-/::1/-/7ms GET /news] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:6:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 6412
+hostname: PAFSH-D1154
+
+2018-05-24 20:09:17,662 ERROR 6412 [-/::1/-/1ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:6:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 6412
+hostname: PAFSH-D1154
+
+2018-05-24 20:10:38,454 ERROR 7348 [-/::1/-/7ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:6:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7348
+hostname: PAFSH-D1154
+
+2018-05-24 20:11:58,491 ERROR 2024 [-/::1/-/8ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:6:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2024
+hostname: PAFSH-D1154
+
+2018-05-24 20:11:59,184 ERROR 2024 [-/::1/-/1ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:6:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2024
+hostname: PAFSH-D1154
+
+2018-05-24 20:13:39,940 ERROR 6232 [-/::1/-/7ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:7:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 6232
+hostname: PAFSH-D1154
+
+2018-05-24 20:14:12,544 ERROR 7420 [-/::1/-/7ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:7:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7420
+hostname: PAFSH-D1154
+
+2018-05-24 20:14:34,033 ERROR 7680 [-/::1/-/7ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:7:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7680
+hostname: PAFSH-D1154
+
+2018-05-24 20:14:54,682 ERROR 2024 [-/::1/-/7ms GET /news?page=1] nodejs.TypeError: this.ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:7:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2024
+hostname: PAFSH-D1154
+
+2018-05-24 20:15:33,782 ERROR 7776 [-/::1/-/6ms GET /news?page=1] nodejs.TypeError: ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:7:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7776
+hostname: PAFSH-D1154
+
+2018-05-24 20:15:34,782 ERROR 7776 [-/::1/-/1ms GET /news?page=1] nodejs.TypeError: ctx.service.news.list is not a function
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:7:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7776
+hostname: PAFSH-D1154
+
+2018-05-24 20:16:36,038 ERROR 6980 [-/::1/-/2568ms GET /news?page=1] nodejs.RequestError: getaddrinfo ENOTFOUND undefined undefined:80 (req "error"), GET http://undefined/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"undefined:80:":1},"requests":{}})
+headers: {} (undefined)
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+code: 'ENOTFOUND'
+errno: 'ENOTFOUND'
+syscall: 'getaddrinfo'
+hostname: 'undefined'
+host: 'undefined'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2560, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://undefined/topstories.json' ], timing: null, remoteAddress: '', remotePort: '' }
+pid: 6980
+hostname: PAFSH-D1154
+
+2018-05-24 20:19:28,545 ERROR 6984 [-/::1/-/2264ms GET /news?page=1] nodejs.RequestError: getaddrinfo ENOTFOUND undefined undefined:80 (req "error"), GET http://undefined/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"undefined:80:":1},"requests":{}})
+headers: {} (undefined)
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+code: 'ENOTFOUND'
+errno: 'ENOTFOUND'
+syscall: 'getaddrinfo'
+hostname: 'undefined'
+host: 'undefined'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2257, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://undefined/topstories.json' ], timing: null, remoteAddress: '', remotePort: '' }
+pid: 6984
+hostname: PAFSH-D1154
+
+2018-05-24 20:32:36,243 ERROR 1264 [-/::1/-/2572ms GET /news?page=1] nodejs.RequestError: getaddrinfo ENOTFOUND undefined undefined:80 (req "error"), GET http://undefined/topstories.json -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"undefined:80:":1},"requests":{}})
+headers: {} (undefined)
+    at errnoException (dns.js:50:10)
+    at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:92:26)
+code: 'ENOTFOUND'
+errno: 'ENOTFOUND'
+syscall: 'getaddrinfo'
+hostname: 'undefined'
+host: 'undefined'
+port: 80
+name: 'RequestError'
+data: undefined
+path: '/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -1
+headers: {}
+res: { status: -1, statusCode: -1, headers: {}, size: 0, aborted: false, rt: 2561, keepAliveSocket: false, data: undefined, requestUrls: [ 'http://undefined/topstories.json' ], timing: null, remoteAddress: '', remotePort: '' }
+pid: 1264
+hostname: PAFSH-D1154
+
+2018-05-24 20:32:51,152 ERROR 3632 [-/::1/-/8ms GET /news?page=1] nodejs.ReferenceError: serveUrl is not defined
+    at NewsService.list (D:\Program Files\demo\egg-example\app\service\news.js:9:50)
+    at NewsController.list (D:\Program Files\demo\egg-example\app\controller\news.js:7:46)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\egg-example\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\egg-example\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\egg-example\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 3632
+hostname: PAFSH-D1154
+
+2018-05-24 20:33:22,349 ERROR 2696 [-/::1/-/5024ms GET /news?page=1] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":1,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\Program Files\demo\egg-example\node_modules\urllib\lib\urllib.js:777:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: 'ConnectionTimeoutError'
+requestId: 1
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5014, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2696
+hostname: PAFSH-D1154
+
+2018-05-24 20:34:53,040 ERROR 2696 [-/::1/-/5004ms GET /news?page=1] nodejs.ConnectionTimeoutError: Connect timeout for 5000ms, GET https://hacker-news.firebaseio.com/v0/topstories.json -2 (connected: false, keepalive socket: false, agent status: {"createSocketCount":2,"createSocketErrorCount":0,"closeSocketCount":2,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{},"requests":{}})
+headers: {}
+headers: {}
+    at Timeout._onTimeout (D:\Program Files\demo\egg-example\node_modules\urllib\lib\urllib.js:777:15)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: 'ConnectionTimeoutError'
+requestId: 2
+data: undefined
+path: '/v0/topstories.json?orderBy=%22%24key%22&startAt=%220%22&endAt=%224%22'
+status: -2
+headers: {}
+res: { status: -2, statusCode: -2, headers: {}, size: 0, aborted: false, rt: 5003, keepAliveSocket: false, data: undefined, requestUrls: [ 'https://hacker-news.firebaseio.com/v0/topstories.json' ], timing: null, remoteAddress: '35.201.97.85', remotePort: '' }
+pid: 2696
+hostname: PAFSH-D1154
+
