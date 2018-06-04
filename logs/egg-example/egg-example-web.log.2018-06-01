@@ -1,0 +1,80 @@
+2018-06-01 17:48:14,621 WARN 7116 [-/10.28.85.112/-/31ms POST /test] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-01 17:48:14,623 WARN 7116 [-/10.28.85.112/-/33ms POST /test] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Program Files\demo\test_node\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (D:\Program Files\demo\test_node\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (D:\Program Files\demo\test_node\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Program Files\demo\test_node\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Program Files\demo\test_node\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 7116
+hostname: PAFSH-D1154
+
+2018-06-01 17:49:05,188 WARN 7116 [-/10.28.85.112/-/0ms POST /user/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-01 17:49:05,190 WARN 7116 [-/10.28.85.112/-/1ms POST /user/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Program Files\demo\test_node\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (D:\Program Files\demo\test_node\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (D:\Program Files\demo\test_node\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Program Files\demo\test_node\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Program Files\demo\test_node\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 7116
+hostname: PAFSH-D1154
+
+2018-06-01 17:52:04,298 WARN 7116 [-/10.28.85.112/-/0ms POST /user/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-01 17:52:04,300 WARN 7116 [-/10.28.85.112/-/2ms POST /user/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Program Files\demo\test_node\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (D:\Program Files\demo\test_node\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (D:\Program Files\demo\test_node\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Program Files\demo\test_node\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Program Files\demo\test_node\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 7116
+hostname: PAFSH-D1154
+
+2018-06-01 17:56:37,490 WARN 7116 [-/10.28.85.112/-/1ms POST /user/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-01 17:56:37,490 WARN 7116 [-/10.28.85.112/-/1ms POST /user/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Program Files\demo\test_node\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (D:\Program Files\demo\test_node\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (D:\Program Files\demo\test_node\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Program Files\demo\test_node\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Program Files\demo\test_node\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 7116
+hostname: PAFSH-D1154
+
+2018-06-01 18:00:23,979 WARN 7116 [-/10.28.85.112/-/0ms POST /user/login] invalid csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-01 18:00:23,980 WARN 7116 [-/10.28.85.112/-/0ms POST /user/login] nodejs.ForbiddenError: invalid csrf token
+    at Object.throw (D:\Program Files\demo\test_node\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (D:\Program Files\demo\test_node\node_modules\egg-security\app\extend\context.js:149:17)
+    at csrf (D:\Program Files\demo\test_node\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Program Files\demo\test_node\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Program Files\demo\test_node\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-compose\index.js:42:32)
+message: 'invalid csrf token'
+pid: 7116
+hostname: PAFSH-D1154
+

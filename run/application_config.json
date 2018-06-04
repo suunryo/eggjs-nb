@@ -88,21 +88,21 @@
     "i18n": {
       "defaultLocale": "en_US",
       "dirs": [
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-session\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-jsonp\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-onerror\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-i18n\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-watcher\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-development\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-schedule\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view-nunjucks\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\locales",
-        "D:\\Program Files\\demo\\egg-example\\config\\locales"
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-session\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-jsonp\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-onerror\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-i18n\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-watcher\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-development\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-schedule\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-view\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg-mysql\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\locales",
+        "D:\\Program Files\\demo\\test_node\\config\\locales"
       ],
       "queryField": "locale",
       "cookieField": "locale",
@@ -112,8 +112,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -137,7 +137,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "D:\\Program Files\\demo\\egg-example\\logs\\egg-example\\egg-schedule.log"
+        "file": "D:\\Program Files\\demo\\test_node\\logs\\egg-example\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -151,7 +151,7 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\Program Files\\demo\\egg-example\\app\\public",
+      "dir": "D:\\Program Files\\demo\\test_node\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
@@ -159,22 +159,26 @@
       "files": "<LRU>"
     },
     "view": {
-      "root": [
-        "D:\\Program Files\\demo\\egg-example\\app\\view"
-      ],
+      "root": "D:\\Program Files\\demo\\test_node\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
-      "defaultViewEngine": "nunjucks",
-      "mapping": {
-        ".tpl": "nunjucks"
-      }
+      "defaultViewEngine": "",
+      "mapping": {}
     },
-    "nunjucks": {
-      "autoescape": true,
-      "throwOnUndefined": false,
-      "trimBlocks": false,
-      "lstripBlocks": false,
-      "cache": false
+    "mysql": {
+      "default": {
+        "database": null,
+        "connectionLimit": 5
+      },
+      "app": true,
+      "agent": false,
+      "client": {
+        "host": "localhost",
+        "port": "3306",
+        "user": "root",
+        "password": "<String len: 6>",
+        "database": "test"
+      }
     },
     "env": "local",
     "name": "egg-example",
@@ -190,7 +194,8 @@
       "main": "app.js",
       "scripts": {
         "dev": "egg-bin dev",
-        "test": "echo \"Error: no test specified\" && exit 1"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "debug": "egg-bin debug"
       },
       "author": "ryo",
       "license": "ISC",
@@ -199,12 +204,13 @@
         "egg-view-nunjucks": "^2.2.0"
       },
       "devDependencies": {
-        "egg-bin": "^4.7.0"
+        "egg-bin": "^4.7.0",
+        "egg-mysql": "^3.0.0"
       }
     },
-    "baseDir": "D:\\Program Files\\demo\\egg-example",
+    "baseDir": "D:\\Program Files\\demo\\test_node",
     "HOME": "D:\\Users\\sunliang033",
-    "rundir": "D:\\Program Files\\demo\\egg-example\\run",
+    "rundir": "D:\\Program Files\\demo\\test_node\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -235,7 +241,7 @@
       "returnRawBody": true
     },
     "logger": {
-      "dir": "D:\\Program Files\\demo\\egg-example\\logs\\egg-example",
+      "dir": "D:\\Program Files\\demo\\test_node\\logs\\egg-example",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -301,13 +307,12 @@
       "responseTimeout": 60000
     },
     "onClientError": null,
-    "news": {
-      "pageSize": 5,
-      "serverUrl": "https://hacker-news.firebaseio.com/v0"
-    },
+    "middleware": [
+      "reqLog"
+    ],
     "coreMiddlewares": "~config~coreMiddleware",
-    "appMiddlewares": [],
-    "appMiddleware": "~config~appMiddlewares",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
     "multipartParseOptions": {
       "autoFields": false,
       "defCharset": "utf8",
@@ -329,8 +334,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-session",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -342,8 +347,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -355,8 +360,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-jsonp",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -368,8 +373,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-onerror",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -379,8 +384,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-i18n",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -390,8 +395,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-watcher",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -401,8 +406,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -416,8 +421,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-development",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -427,8 +432,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-schedule",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -440,8 +445,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -451,8 +456,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -462,23 +467,20 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view",
+      "from": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-view",
       "version": "2.1.0"
     },
-    "nunjucks": {
+    "mysql": {
       "enable": true,
-      "package": "egg-view-nunjucks",
-      "name": "nunjucks",
-      "dependencies": [
-        "security",
-        "view"
-      ],
+      "package": "egg-mysql",
+      "name": "mysql",
+      "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\egg-example\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view-nunjucks",
-      "version": "2.2.0"
+      "from": "D:\\Program Files\\demo\\test_node\\config\\plugin.js",
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-mysql",
+      "version": "3.0.0"
     }
   }
 }

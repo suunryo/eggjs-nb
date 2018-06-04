@@ -1,260 +1,265 @@
 {
-  "keys": "D:\\Program Files\\demo\\egg-example\\config\\config.default.js",
-  "view": {
-    "defaultViewEngine": "D:\\Program Files\\demo\\egg-example\\config\\config.default.js",
-    "mapping": {
-      ".tpl": "D:\\Program Files\\demo\\egg-example\\config\\config.default.js"
+  "keys": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
+  "mysql": {
+    "client": {
+      "host": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
+      "port": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
+      "user": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
+      "password": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
+      "database": "D:\\Program Files\\demo\\test_node\\config\\config.default.js"
     },
-    "root": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view\\config\\config.default.js"
+    "app": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
+    "agent": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
+    "default": {
+      "database": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-mysql\\config\\config.default.js"
+    }
   },
-  "news": {
-    "pageSize": "D:\\Program Files\\demo\\egg-example\\config\\config.default.js",
-    "serverUrl": "D:\\Program Files\\demo\\egg-example\\config\\config.default.js"
-  },
+  "middleware": "D:\\Program Files\\demo\\test_node\\config\\config.default.js",
   "session": {
-    "maxAge": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-multipart\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-development\\config\\config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-static\\config\\config.default.js"
   },
-  "nunjucks": {
-    "autoescape": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "throwOnUndefined": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "trimBlocks": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "lstripBlocks": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.default.js",
-    "cache": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg-view-nunjucks\\config\\config.local.js"
+  "view": {
+    "root": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "D:\\Program Files\\demo\\test_node\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "env": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "name": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "main": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "name": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "version": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "description": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "main": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "dev": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "dev": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "test": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "debug": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "author": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "license": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "egg": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "strict": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "depth": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "dir": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "env": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "level": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    "enable": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "logging": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+      "path": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "port": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\Program Files\\demo\\egg-example\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "D:\\Program Files\\demo\\test_node\\node_modules\\egg\\config\\config.default.js"
 }

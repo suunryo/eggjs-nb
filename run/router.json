@@ -2,12 +2,23 @@
   {
     "name": null,
     "methods": [
-      "HEAD",
-      "GET"
+      "POST"
     ],
     "paramNames": [],
-    "path": "/",
-    "regexp": "/^(?:\\/(?=$))?$/",
+    "path": "/api/user/login",
+    "regexp": "/^\\/api\\/user\\/login(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
+    "path": "/api/user/signup",
+    "regexp": "/^\\/api\\/user\\/signup(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]
@@ -19,8 +30,21 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/news",
-    "regexp": "/^\\/news(?:\\/(?=$))?$/",
+    "path": "/api/user/checkUser",
+    "regexp": "/^\\/api\\/user\\/checkUser(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
+    "path": "/api/test",
+    "regexp": "/^\\/api\\/test(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

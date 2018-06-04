@@ -1,0 +1,495 @@
+2018-06-01 17:30:05,365 ERROR 7424 [-/::1/-/2ms GET /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:6:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7424
+hostname: PAFSH-D1154
+
+2018-06-01 17:35:58,810 ERROR 7424 [-/10.28.85.112/-/10ms GET /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:6:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 7424
+hostname: PAFSH-D1154
+
+2018-06-01 17:44:06,154 ERROR 9244 [-/10.28.85.112/-/4ms GET /api/test] nodejs.ReferenceError: ctx is not defined
+    at UserController.test (D:\Program Files\demo\test_node\app\controller\user.js:12:3)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9244
+hostname: PAFSH-D1154
+
+2018-06-01 18:02:24,999 ERROR 9736 [-/::1/-/1ms GET /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:6:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9736
+hostname: PAFSH-D1154
+
+2018-06-01 18:02:51,010 ERROR 9736 [-/10.28.85.112/-/0ms GET /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:6:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9736
+hostname: PAFSH-D1154
+
+2018-06-01 18:18:30,446 ERROR 9852 [-/10.28.85.112/-/3ms GET /api/user/login] nodejs.ReferenceError: cosnole is not defined
+    at UserController.login (d:\Program Files\demo\test_node\app\controller\user.js:5:3)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9852
+hostname: PAFSH-D1154
+
+2018-06-01 18:19:04,430 ERROR 8204 [-/10.28.85.112/-/5ms GET /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (d:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 8204
+hostname: PAFSH-D1154
+
+2018-06-01 18:19:59,269 ERROR 2592 [-/10.28.85.112/-/15ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (d:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2592
+hostname: PAFSH-D1154
+
+2018-06-01 18:23:10,865 ERROR 2592 [-/10.28.85.112/-/3ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (d:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2592
+hostname: PAFSH-D1154
+
+2018-06-01 18:23:27,863 ERROR 2592 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (d:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2592
+hostname: PAFSH-D1154
+
+2018-06-01 18:23:57,159 ERROR 2592 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (d:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 2592
+hostname: PAFSH-D1154
+
+2018-06-01 18:25:49,172 ERROR 7704 nodejs.ClusterClientNoResponseError: client no response in 74982ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\Program Files\demo\test_node\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: 'ClusterClientNoResponseError'
+pid: 7704
+hostname: PAFSH-D1154
+
+2018-06-01 18:27:40,396 ERROR 10508 [-/10.28.85.112/-/184739ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10508
+hostname: PAFSH-D1154
+
+2018-06-01 18:27:44,775 ERROR 10508 [-/10.28.85.112/-/4372ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10508
+hostname: PAFSH-D1154
+
+2018-06-01 18:31:49,191 ERROR 7704 nodejs.ClusterClientNoResponseError: client no response in 64400ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\Program Files\demo\test_node\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: 'ClusterClientNoResponseError'
+pid: 7704
+hostname: PAFSH-D1154
+
+2018-06-01 18:32:02,542 ERROR 10508 [-/10.28.85.112/-/60808ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10508
+hostname: PAFSH-D1154
+
+2018-06-01 18:33:26,616 ERROR 10508 [-/10.28.85.112/-/33613ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10508
+hostname: PAFSH-D1154
+
+2018-06-01 18:35:46,400 ERROR 10508 [-/10.28.85.112/-/30602ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10508
+hostname: PAFSH-D1154
+
+2018-06-01 18:36:32,395 ERROR 10508 [-/10.28.85.112/-/16810ms POST /api/user/login] nodejs.TypeError: Cannot read property 'account' of undefined
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:7:56)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10508
+hostname: PAFSH-D1154
+
+2018-06-01 18:39:40,422 ERROR 10336 [-/10.28.85.112/-/19ms POST /api/user/login] nodejs.ReferenceError: ctx is not defined
+    at UserController.login (d:\Program Files\demo\test_node\app\controller\user.js:5:19)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\test_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\test_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\test_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10336
+hostname: PAFSH-D1154
+
+2018-06-01 19:37:13,550 ERROR 248 [-/10.28.85.112/-/5ms POST /api/user/login] nodejs.TypeError: Cannot read property 'password' of null
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:10:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 248
+hostname: PAFSH-D1154
+
+2018-06-01 19:38:05,884 ERROR 248 [-/10.28.85.112/-/35998ms POST /api/user/login] nodejs.TypeError: Cannot read property 'password' of null
+    at UserController.login (D:\Program Files\demo\test_node\app\controller\user.js:10:25)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 248
+hostname: PAFSH-D1154
+
+2018-06-01 19:41:06,988 ERROR 8464 [-/10.28.85.112/-/3686ms POST /api/user/login] nodejs.ReferenceError: assert is not defined
+    at UserService.login (D:\Program Files\demo\test_node\app\service\user.js:6:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8464
+hostname: PAFSH-D1154
+
+2018-06-01 19:41:44,112 ERROR 11148 [-/10.28.85.112/-/38ms POST /api/user/login] nodejs.TypeError: Cannot read property 'deepStrictEqual' of undefined
+    at UserService.login (D:\Program Files\demo\test_node\app\service\user.js:7:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11148
+hostname: PAFSH-D1154
+
+2018-06-01 19:42:22,934 ERROR 9024 [-/10.28.85.112/-/8821ms POST /api/user/login] nodejs.TypeError: Cannot read property 'deepStrictEqual' of undefined
+    at UserService.login (D:\Program Files\demo\test_node\app\service\user.js:7:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9024
+hostname: PAFSH-D1154
+
+2018-06-01 19:42:44,560 ERROR 10604 [-/10.28.85.112/-/5ms POST /api/user/login] nodejs.TypeError: Cannot read property 'password' of null
+    at UserService.login (D:\Program Files\demo\test_node\app\service\user.js:6:26)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10604
+hostname: PAFSH-D1154
+
+2018-06-01 20:45:34,895 ERROR 5212 [-/10.28.85.112/-/39ms POST /api/user/signup] nodejs.ER_NO_DEFAULT_FOR_FIELDError: ER_NO_DEFAULT_FOR_FIELD: Field 'id' doesn't have a default value
+    at Query.Sequence._packetToError (D:\Program Files\demo\test_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\Program Files\demo\test_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Program Files\demo\test_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\Program Files\demo\test_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\Program Files\demo\test_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Program Files\demo\test_node\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (D:\Program Files\demo\test_node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\Program Files\demo\test_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Program Files\demo\test_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Program Files\demo\test_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Program Files\demo\test_node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Program Files\demo\test_node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Program Files\demo\test_node\node_modules\co\index.js:65:19)
+    at D:\Program Files\demo\test_node\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`nickname`, `account`, `password`, `birthday`, `gender`) VALUES('aaa', 'bbb', '111', '2018-06-01', 'female')
+code: 'ER_NO_DEFAULT_FOR_FIELD'
+errno: 1364
+sqlMessage: 'Field \'id\' doesn\'t have a default value'
+sqlState: 'HY000'
+index: 0
+sql: 'INSERT INTO `user`(`nickname`, `account`, `password`, `birthday`, `gender`) VALUES(\'aaa\', \'bbb\', \'111\', \'2018-06-01\', \'female\')'
+name: 'ER_NO_DEFAULT_FOR_FIELDError'
+pid: 5212
+hostname: PAFSH-D1154
+
+2018-06-01 20:57:30,800 ERROR 9412 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9412
+hostname: PAFSH-D1154
+
+2018-06-01 20:57:37,903 ERROR 9412 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9412
+hostname: PAFSH-D1154
+
+2018-06-01 20:57:39,589 ERROR 9412 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9412
+hostname: PAFSH-D1154
+
+2018-06-01 21:40:04,170 ERROR 10088 [-/10.28.85.112/-/6ms GET /api/user/checkUser?value=dsasda&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:27:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10088
+hostname: PAFSH-D1154
+
+2018-06-01 21:40:15,123 ERROR 10088 [-/10.28.85.112/-/4ms GET /api/user/checkUser?value=dsasda&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:27:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10088
+hostname: PAFSH-D1154
+
+2018-06-01 21:41:03,662 ERROR 10088 [-/10.28.85.112/-/19823ms GET /api/user/checkUser?value=dsasda&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:27:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10088
+hostname: PAFSH-D1154
+
+2018-06-01 21:41:48,873 ERROR 10088 [-/10.28.85.112/-/31484ms GET /api/user/checkUser?value=dsasda&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:27:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10088
+hostname: PAFSH-D1154
+
+2018-06-01 21:41:53,858 ERROR 10088 [-/10.28.85.112/-/4ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:27:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10088
+hostname: PAFSH-D1154
+
+2018-06-01 21:42:24,913 ERROR 10000 [-/10.28.85.112/-/25ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:26:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10000
+hostname: PAFSH-D1154
+
+2018-06-01 21:43:09,404 ERROR 10000 [-/10.28.85.112/-/4ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:26:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10000
+hostname: PAFSH-D1154
+
+2018-06-01 21:43:39,013 ERROR 10000 [-/10.28.85.112/-/7759ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:26:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10000
+hostname: PAFSH-D1154
+
+2018-06-01 21:44:01,354 ERROR 10000 [-/10.28.85.112/-/5ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:26:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10000
+hostname: PAFSH-D1154
+
+2018-06-01 21:44:06,661 ERROR 10000 [-/10.28.85.112/-/4ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:26:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10000
+hostname: PAFSH-D1154
+
+2018-06-01 21:49:19,299 ERROR 10000 [-/10.28.85.112/-/6ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:26:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10000
+hostname: PAFSH-D1154
+
+2018-06-01 21:49:34,306 ERROR 10000 [-/10.28.85.112/-/5ms GET /api/user/checkUser?value=sunliang&type=1] nodejs.ReferenceError: res is not defined
+    at UserService.checkUser (D:\Program Files\demo\test_node\app\service\user.js:26:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10000
+hostname: PAFSH-D1154
+

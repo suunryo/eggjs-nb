@@ -1,4 +1,4 @@
-exports.nunjucks = {
+exports.mysql = {
   enable: true,
-  package: 'egg-view-nunjucks'
-};
+  package: 'egg-mysql',
+}

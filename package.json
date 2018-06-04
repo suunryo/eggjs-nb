@@ -5,7 +5,8 @@
   "main": "app.js",
   "scripts": {
     "dev": "egg-bin dev",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "debug": "egg-bin debug"
   },
   "author": "ryo",
   "license": "ISC",
@@ -14,6 +15,7 @@
     "egg-view-nunjucks": "^2.2.0"
   },
   "devDependencies": {
-    "egg-bin": "^4.7.0"
+    "egg-bin": "^4.7.0",
+    "egg-mysql": "^3.0.0"
   }
 }

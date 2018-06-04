@@ -1,0 +1,36 @@
+2018-06-01 17:29:14,714 INFO 6312 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 17:29:14,715 INFO 6312 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:01:32,841 INFO 9852 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:01:32,842 INFO 9852 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:15:03,171 INFO 7324 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:15:03,171 INFO 7324 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:15:32,103 INFO 6936 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:15:32,104 INFO 6936 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:22:54,200 INFO 7704 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:22:54,200 INFO 7704 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:38:59,058 INFO 9428 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:38:59,058 INFO 9428 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:40:54,914 INFO 1356 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:40:54,914 INFO 1356 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:42:49,437 INFO 1188 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:42:49,437 INFO 1188 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 18:44:45,939 INFO 9412 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 18:44:45,940 INFO 9412 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 21:35:17,887 INFO 9780 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 21:35:17,887 INFO 9780 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 21:36:09,884 INFO 4360 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 21:36:09,885 INFO 4360 [Timer] d:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 21:37:26,954 INFO 10392 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 21:37:26,954 INFO 10392 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-01 21:50:02,266 INFO 10300 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-02 00:00:00.000
+2018-06-01 21:50:02,268 INFO 10300 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-02 00:00:01.000
+2018-06-02 00:00:00,415 INFO 10552 [1527868800413189142446096505] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js task received by app
+2018-06-02 00:00:00,415 INFO 10552 [1527868800413189142446096505] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js executing by app
+2018-06-02 00:00:00,449 INFO 10552 [1527868800413189142446096505] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js execute succeed, used 34ms
+2018-06-02 00:00:00,413 INFO 10300 [1527868800413189142446096505] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js triggered, send random by agent
+2018-06-02 00:00:00,416 INFO 10300 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-03 00:00:00.000
+2018-06-02 00:00:01,412 INFO 10552 [1527868801412189143444758585] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js task received by app
+2018-06-02 00:00:01,412 INFO 10552 [1527868801412189143444758585] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js executing by app
+2018-06-02 00:00:01,436 INFO 10552 [1527868801412189143444758585] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js execute succeed, used 24ms
+2018-06-02 00:00:01,412 INFO 10300 [1527868801412189143444758585] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js triggered, send random by agent
+2018-06-02 00:00:01,413 INFO 10300 [Timer] D:\Program Files\demo\test_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-03 00:00:01.000

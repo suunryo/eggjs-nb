@@ -1,0 +1,9 @@
+2018-06-04 08:38:08,063 ERROR 10552 A client (::ffff:10.28.85.145:59381) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 08:39:43,564 ERROR 10552 A client (::ffff:10.28.85.165:62784) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 08:40:56,478 ERROR 10552 A client (::ffff:10.28.85.165:64416) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 08:50:57,609 ERROR 10552 A client (::ffff:10.28.85.37:51572) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:03:39,591 ERROR 10552 A client (::ffff:10.28.85.95:57181) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:04:40,878 ERROR 10552 A client (::ffff:10.28.85.62:50394) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:05:07,603 ERROR 10552 A client (::ffff:10.28.85.84:58958) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:07:35,411 ERROR 10552 A client (::ffff:10.28.85.84:52020) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:07:50,774 ERROR 10552 A client (::ffff:10.28.85.62:49705) error [HPE_INVALID_METHOD] occurred: Parse Error
