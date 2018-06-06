@@ -43,6 +43,19 @@
       "GET"
     ],
     "paramNames": [],
+    "path": "/api/user/getUserInfo",
+    "regexp": "/^\\/api\\/user\\/getUserInfo(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "HEAD",
+      "GET"
+    ],
+    "paramNames": [],
     "path": "/api/user/test",
     "regexp": "/^\\/api\\/user\\/test(?:\\/(?=$))?$/",
     "stack": [

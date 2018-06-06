@@ -164,3 +164,4 @@ pid: 9412
 hostname: PAFSH-D1154
 
 2018-06-06 15:56:01,538 ERROR 8356 A client (::ffff:10.28.85.209:52473) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-06 16:20:46,738 ERROR 8956 A client (::ffff:10.28.85.105:56291) error [HPE_INVALID_METHOD] occurred: Parse Error

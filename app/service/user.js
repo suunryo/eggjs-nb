@@ -5,7 +5,7 @@ class UserService extends Service {
 	async login(account, password) {
 		const row = await this.app.mysql.get('user', {account: account})
 		if(!row) return false
-		return password == row.password
+		return row
 	}
 
 	// 注册
@@ -26,6 +26,17 @@ class UserService extends Service {
 		}
 		const res = await this.app.mysql.get('user', obj)
 		return res ? false : true
+	}
+
+	async getUserInfo(id) {
+		if(!id) return false;
+
+		let res = await this.app.mysql.get('user', {id: id})
+		if(!res) return false
+
+		delete res.password
+
+		return res
 	}
 }
 
