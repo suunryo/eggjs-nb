@@ -44,3 +44,123 @@ pid: 4640
 hostname: PAFSH-D1154
 
 2018-06-05 15:55:11,215 ERROR 11724 A client (::ffff:10.28.85.209:53855) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-06 14:01:38,545 ERROR 9336 [-/10.28.85.112/-/24ms GET /api/content/page] nodejs.TypeError: ctx.service.content.page is not a function
+    at ContentController.page (D:\Program Files\demo\eggjs_node\app\controller\content.js:7:50)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9336
+hostname: PAFSH-D1154
+
+2018-06-06 14:22:33,675 ERROR 6308 [-/10.28.85.112/-/25ms GET /api/content/page] nodejs.TypeError: result[k].formate is not a function
+    at reqLog (D:\Program Files\demo\eggjs_node\app\middleware\formateDate.js:9:80)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6308
+hostname: PAFSH-D1154
+
+2018-06-06 14:23:00,932 ERROR 6308 [-/10.28.85.112/-/12020ms GET /api/content/page] nodejs.TypeError: result[k].formate is not a function
+    at reqLog (D:\Program Files\demo\eggjs_node\app\middleware\formateDate.js:9:80)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 6308
+hostname: PAFSH-D1154
+
+2018-06-06 14:58:01,385 ERROR 8804 [-/10.28.85.112/-/12ms GET /api/content/page] nodejs.TypeError: Assignment to constant variable.
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8804
+hostname: PAFSH-D1154
+
+2018-06-06 14:58:56,329 ERROR 9180 [-/10.28.85.112/-/13ms GET /api/content/page] nodejs.TypeError: Assignment to constant variable.
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9180
+hostname: PAFSH-D1154
+
+2018-06-06 14:59:04,022 ERROR 9180 [-/10.28.85.112/-/5ms GET /api/content/page] nodejs.TypeError: Assignment to constant variable.
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9180
+hostname: PAFSH-D1154
+
+2018-06-06 14:59:19,771 ERROR 9180 [-/10.28.85.112/-/8994ms GET /api/content/page] nodejs.TypeError: Assignment to constant variable.
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9180
+hostname: PAFSH-D1154
+
+2018-06-06 15:01:09,856 ERROR 9664 [-/10.28.85.112/-/16ms GET /api/content/page] nodejs.TypeError: Assignment to constant variable.
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9664
+hostname: PAFSH-D1154
+
+2018-06-06 15:04:16,204 ERROR 9384 [-/10.28.85.112/-/4821ms GET /api/content/page] nodejs.TypeError: Cannot read property 'constructor' of undefined
+    at Object.keys.map (D:\Program Files\demo\eggjs_node\app\service\content.js:9:25)
+    at Array.map (<anonymous>)
+    at list.map.v (D:\Program Files\demo\eggjs_node\app\service\content.js:8:28)
+    at Array.map (<anonymous>)
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9384
+hostname: PAFSH-D1154
+
+2018-06-06 15:04:36,750 ERROR 9384 [-/10.28.85.112/-/11563ms GET /api/content/page] nodejs.TypeError: Cannot read property 'constructor' of undefined
+    at Object.keys.map (D:\Program Files\demo\eggjs_node\app\service\content.js:9:25)
+    at Array.map (<anonymous>)
+    at list.map.v (D:\Program Files\demo\eggjs_node\app\service\content.js:8:28)
+    at Array.map (<anonymous>)
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9384
+hostname: PAFSH-D1154
+
+2018-06-06 15:04:59,971 ERROR 9384 [-/10.28.85.112/-/18328ms GET /api/content/page] nodejs.TypeError: Cannot read property 'constructor' of undefined
+    at Object.keys.map (D:\Program Files\demo\eggjs_node\app\service\content.js:9:25)
+    at Array.map (<anonymous>)
+    at list.map.v (D:\Program Files\demo\eggjs_node\app\service\content.js:8:28)
+    at Array.map (<anonymous>)
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:21)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9384
+hostname: PAFSH-D1154
+
+2018-06-06 15:20:55,801 ERROR 9412 [-/10.28.85.112/-/13ms GET /api/content/page] nodejs.TypeError: v[k].formate is not a function
+    at Object.keys.forEach.k (D:\Program Files\demo\eggjs_node\app\service\content.js:9:58)
+    at Array.forEach (<anonymous>)
+    at list.forEach.v (D:\Program Files\demo\eggjs_node\app\service\content.js:8:28)
+    at Array.forEach (<anonymous>)
+    at ContentService.page (D:\Program Files\demo\eggjs_node\app\service\content.js:7:14)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9412
+hostname: PAFSH-D1154
+
+2018-06-06 15:56:01,538 ERROR 8356 A client (::ffff:10.28.85.209:52473) error [HPE_INVALID_METHOD] occurred: Parse Error

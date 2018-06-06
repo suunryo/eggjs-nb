@@ -1,2 +1,16 @@
 2018-06-05 15:17:11,965 INFO 10476 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-06 00:00:00.000
 2018-06-05 15:17:11,965 INFO 10476 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-06 00:00:01.000
+2018-06-06 13:49:55,558 INFO 8564 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-07 00:00:00.000
+2018-06-06 13:49:55,559 INFO 8564 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-07 00:00:01.000
+2018-06-06 14:01:22,200 INFO 9840 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-07 00:00:00.000
+2018-06-06 14:01:22,201 INFO 9840 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-07 00:00:01.000
+2018-06-06 14:12:53,771 INFO 9524 [Timer] d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-07 00:00:00.000
+2018-06-06 14:12:53,772 INFO 9524 [Timer] d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-07 00:00:01.000
+2018-06-06 14:14:05,055 INFO 6612 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-07 00:00:00.000
+2018-06-06 14:14:05,056 INFO 6612 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-07 00:00:01.000
+2018-06-06 14:57:55,022 INFO 8248 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-07 00:00:00.000
+2018-06-06 14:57:55,022 INFO 8248 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-07 00:00:01.000
+2018-06-06 15:07:23,741 INFO 9668 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-07 00:00:00.000
+2018-06-06 15:07:23,741 INFO 9668 [Timer] D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-07 00:00:01.000
+2018-06-06 15:58:19,801 INFO 9404 [Timer] d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js next time will execute at 2018-06-07 00:00:00.000
+2018-06-06 15:58:19,802 INFO 9404 [Timer] d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js next time will execute at 2018-06-07 00:00:01.000

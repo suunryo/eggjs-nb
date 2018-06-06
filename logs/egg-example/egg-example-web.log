@@ -1,0 +1,16 @@
+2018-06-06 13:52:25,163 WARN 8836 [-/10.28.85.112/-/150ms POST /api/user/login] missing csrf token. See https://eggjs.org/zh-cn/core/security.html#安全威胁csrf的防范
+2018-06-06 13:52:25,167 WARN 8836 [-/10.28.85.112/-/154ms POST /api/user/login] nodejs.ForbiddenError: missing csrf token
+    at Object.throw (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\context.js:93:11)
+    at Object.assertCsrf (D:\Program Files\demo\eggjs_node\node_modules\egg-security\app\extend\context.js:140:17)
+    at csrf (D:\Program Files\demo\eggjs_node\node_modules\egg-security\lib\middlewares\csrf.js:31:9)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:34:12
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at session (D:\Program Files\demo\eggjs_node\node_modules\koa-session\index.js:41:13)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at overrideMethod (D:\Program Files\demo\eggjs_node\node_modules\koa-override\index.js:38:12)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+message: 'missing csrf token'
+pid: 8836
+hostname: PAFSH-D1154
+

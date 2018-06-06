@@ -1,266 +1,266 @@
 {
-  "keys": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+  "keys": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
   "mysql": {
     "client": {
-      "host": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
-      "port": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
-      "user": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
-      "password": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
-      "database": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js"
+      "host": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+      "port": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+      "user": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+      "password": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+      "database": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js"
     },
-    "app": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
-    "agent": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+    "app": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+    "agent": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
     "default": {
-      "database": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-mysql\\config\\config.default.js",
-      "connectionLimit": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-mysql\\config\\config.default.js"
+      "database": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-mysql\\config\\config.default.js",
+      "connectionLimit": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-mysql\\config\\config.default.js"
     }
   },
-  "middleware": "D:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+  "middleware": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
   "session": {
-    "maxAge": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js"
+    "maxAge": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
+    "key": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
+    "httpOnly": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
+    "encrypt": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js"
   },
   "security": {
-    "domainWhiteList": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-    "protocolWhiteList": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-    "defaultMiddleware": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+    "domainWhiteList": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+    "protocolWhiteList": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+    "defaultMiddleware": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
     "csrf": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "useSession": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "ignoreJSON": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "cookieName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "sessionName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "headerName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "bodyName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "queryName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "useSession": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "ignoreJSON": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "cookieName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "sessionName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "headerName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "bodyName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "queryName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xframe": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "hsts": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.local.js",
-      "maxAge": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "includeSubdomains": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.local.js",
+      "maxAge": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "includeSubdomains": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "dta": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "methodnoallow": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "noopen": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "nosniff": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "referrerPolicy": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "xssProtection": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "value": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "value": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "csp": {
-      "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "policy": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "policy": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     },
     "ssrf": {
-      "ipBlackList": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
-      "checkAddress": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+      "ipBlackList": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
+      "checkAddress": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
     }
   },
   "helper": {
-    "shtml": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
+    "shtml": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js"
   },
   "jsonp": {
-    "limit": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "callback": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp\\config\\config.default.js",
-    "csrf": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp\\config\\config.default.js"
+    "limit": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "callback": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp\\config\\config.default.js",
+    "csrf": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp\\config\\config.default.js"
   },
   "onerror": {
-    "errorPageUrl": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-onerror\\config\\config.default.js",
-    "appErrorFilter": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-onerror\\config\\config.default.js"
+    "errorPageUrl": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-onerror\\config\\config.default.js",
+    "appErrorFilter": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-onerror\\config\\config.default.js"
   },
   "i18n": {
-    "defaultLocale": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
-    "dirs": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
-    "queryField": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieField": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
-    "cookieMaxAge": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js"
+    "defaultLocale": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "dirs": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "queryField": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieField": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js",
+    "cookieMaxAge": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n\\config\\config.default.js"
   },
   "watcher": {
-    "type": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\config\\config.local.js",
+    "type": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\config\\config.local.js",
     "eventSources": {
-      "default": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\config\\config.default.js",
-      "development": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\config\\config.default.js"
+      "default": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\config\\config.default.js",
+      "development": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\config\\config.default.js"
     }
   },
   "multipart": {
-    "autoFields": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "defaultCharset": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldNameSize": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fieldSize": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fields": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileSize": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "files": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "fileExtensions": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
-    "whitelist": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js"
+    "autoFields": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "defaultCharset": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldNameSize": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fieldSize": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fields": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileSize": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "files": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "fileExtensions": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js",
+    "whitelist": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart\\config\\config.default.js"
   },
   "development": {
-    "watchDirs": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
-    "ignoreDirs": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
-    "fastReady": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
-    "reloadOnDebug": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
-    "overrideDefault": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js"
+    "watchDirs": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
+    "ignoreDirs": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
+    "fastReady": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
+    "reloadOnDebug": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js",
+    "overrideDefault": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development\\config\\config.default.js"
   },
   "customLogger": {
     "scheduleLogger": {
-      "consoleLevel": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-schedule\\config\\config.default.js",
-      "file": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-schedule\\config\\config.default.js"
+      "consoleLevel": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-schedule\\config\\config.default.js",
+      "file": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-schedule\\config\\config.default.js"
     }
   },
   "logrotator": {
-    "filesRotateByHour": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "hourDelimiter": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "filesRotateBySize": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFileSize": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxFiles": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "rotateDuration": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
-    "maxDays": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js"
+    "filesRotateByHour": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "hourDelimiter": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "filesRotateBySize": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFileSize": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxFiles": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "rotateDuration": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js",
+    "maxDays": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator\\config\\config.default.js"
   },
   "static": {
-    "prefix": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
-    "dir": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
-    "dynamic": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
-    "preload": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
-    "buffer": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
-    "maxFiles": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js"
+    "prefix": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
+    "dir": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
+    "dynamic": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
+    "preload": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
+    "buffer": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js",
+    "maxFiles": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static\\config\\config.default.js"
   },
   "view": {
-    "root": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js",
-    "cache": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.local.js",
-    "defaultExtension": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js",
-    "defaultViewEngine": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js",
-    "mapping": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js"
+    "root": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js",
+    "cache": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.local.js",
+    "defaultExtension": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js",
+    "defaultViewEngine": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js",
+    "mapping": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view\\config\\config.default.js"
   },
-  "env": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "name": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "proxy": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "protocolHeaders": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "ipHeaders": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "hostHeaders": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "env": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "name": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "proxy": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "protocolHeaders": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "ipHeaders": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "hostHeaders": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
   "pkg": {
-    "name": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "version": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "description": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "main": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "name": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "version": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "description": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "main": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
     "scripts": {
-      "dev": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "test": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "debug": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "dev": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "test": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "debug": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     },
-    "author": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "license": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "author": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "license": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
-      "egg": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "egg-redis": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "egg-view-nunjucks": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "egg": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "egg-redis": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "egg-view-nunjucks": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
-  "baseDir": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "HOME": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "rundir": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "baseDir": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "HOME": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "rundir": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
   "dump": {
-    "ignore": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+    "ignore": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
   },
   "confusedConfigurations": {
-    "bodyparser": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "notFound": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "sitefile": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "middlewares": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "httpClient": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+    "bodyparser": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "notFound": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "sitefile": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "middlewares": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "httpClient": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
   },
   "notfound": {
-    "pageUrl": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+    "pageUrl": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
   },
   "siteFile": {
-    "/favicon.ico": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+    "/favicon.ico": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
   },
   "bodyParser": {
-    "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "formLimit": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "jsonLimit": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "strict": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "formLimit": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "jsonLimit": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "strict": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
     "queryString": {
-      "arrayLimit": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "depth": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "parameterLimit": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "arrayLimit": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "depth": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "parameterLimit": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "logger": {
-    "dir": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "encoding": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "env": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "level": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "consoleLevel": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "disableConsoleAfterReady": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "outputJSON": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "buffer": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "appLogName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "coreLogName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "agentLogName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "errorLogName": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "dir": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "encoding": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "env": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "level": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "consoleLevel": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "disableConsoleAfterReady": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "outputJSON": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "buffer": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "appLogName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "coreLogName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "agentLogName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "errorLogName": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
     "coreLogger": {
-      "consoleLevel": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.local.js"
+      "consoleLevel": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.local.js"
     },
-    "allowDebugAtProd": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+    "allowDebugAtProd": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
   },
   "httpclient": {
-    "enableDNSCache": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxLength": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "dnsCacheMaxAge": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "enableDNSCache": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxLength": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "dnsCacheMaxAge": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
     "request": {
-      "timeout": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "timeout": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     },
     "httpAgent": {
-      "keepAlive": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     },
     "httpsAgent": {
-      "keepAlive": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "freeSocketKeepAliveTimeout": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "maxSockets": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "maxFreeSockets": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "keepAlive": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "freeSocketKeepAliveTimeout": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "maxSockets": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "maxFreeSockets": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "meta": {
-    "enable": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "logging": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+    "enable": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "logging": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
   },
-  "coreMiddleware": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-  "workerStartTimeout": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "coreMiddleware": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+  "workerStartTimeout": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
   "cluster": {
     "listen": {
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "port": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "hostname": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "port": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "hostname": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "clusterClient": {
-    "maxWaitTime": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-    "responseTimeout": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+    "maxWaitTime": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+    "responseTimeout": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
   },
-  "onClientError": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+  "onClientError": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
 }
