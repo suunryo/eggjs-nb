@@ -7,6 +7,13 @@ class UserController extends Controller {
 		const account = ctx.request.body.account
 		const password = ctx.request.body.password
 		const result = await ctx.service.user.login(account, password)
+
+		ctx.cookies.set('sun', result.id, {
+			maxAge: 10 * 60 * 1000,
+			path: '/',
+			encrypt: true,
+			signed: true
+		})
 		
 		ctx.body = result ? ctx.__success() : ctx.__error()
 	}
@@ -33,9 +40,9 @@ class UserController extends Controller {
 	}
 
 	async test(){
-		this.ctx.body = {
-			code: 200
-		}
+		const ctx = this.ctx
+		
+		ctx.body = ctx.__success()
 	}
 }
 

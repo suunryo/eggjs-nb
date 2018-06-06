@@ -1,0 +1,319 @@
+2018-06-04 08:38:08,063 ERROR 10552 A client (::ffff:10.28.85.145:59381) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 08:39:43,564 ERROR 10552 A client (::ffff:10.28.85.165:62784) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 08:40:56,478 ERROR 10552 A client (::ffff:10.28.85.165:64416) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 08:50:57,609 ERROR 10552 A client (::ffff:10.28.85.37:51572) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:03:39,591 ERROR 10552 A client (::ffff:10.28.85.95:57181) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:04:40,878 ERROR 10552 A client (::ffff:10.28.85.62:50394) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:05:07,603 ERROR 10552 A client (::ffff:10.28.85.84:58958) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:07:35,411 ERROR 10552 A client (::ffff:10.28.85.84:52020) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 09:07:50,774 ERROR 10552 A client (::ffff:10.28.85.62:49705) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-04 19:50:18,392 ERROR 6336 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 6336
+hostname: PAFSH-D1154
+
+2018-06-04 20:59:33,316 ERROR 4384 [-/10.28.85.112/-/26ms POST /api/user/login] nodejs.Error: this.session can only be set as null or an object.
+    at ContextSession.set (D:\Program Files\demo\eggjs_node\node_modules\koa-session\lib\context.js:58:11)
+    at Object.set (D:\Program Files\demo\eggjs_node\node_modules\koa-session\index.js:127:31)
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:11:15)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 4384
+hostname: PAFSH-D1154
+
+2018-06-04 21:02:20,285 ERROR 4156 [-/10.28.85.112/-/3ms GET /api/user/test] nodejs.TypeError: Cannot read property 'session' of undefined
+    at UserController.test (D:\Program Files\demo\eggjs_node\app\controller\user.js:46:18)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at reqLog (D:\Program Files\demo\eggjs_node\app\middleware\reqLog.js:4:15)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Program Files\demo\eggjs_node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+
+pid: 4156
+hostname: PAFSH-D1154
+
+2018-06-04 21:02:51,647 ERROR 4156 [-/10.28.85.112/-/7991ms GET /api/user/test] nodejs.TypeError: Cannot read property 'session' of undefined
+    at UserController.test (D:\Program Files\demo\eggjs_node\app\controller\user.js:46:18)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at reqLog (D:\Program Files\demo\eggjs_node\app\middleware\reqLog.js:4:15)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Program Files\demo\eggjs_node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+
+pid: 4156
+hostname: PAFSH-D1154
+
+2018-06-04 21:03:09,051 ERROR 4156 [-/10.28.85.112/-/9420ms GET /api/user/test] nodejs.TypeError: Cannot read property 'session' of undefined
+    at UserController.test (D:\Program Files\demo\eggjs_node\app\controller\user.js:46:18)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at reqLog (D:\Program Files\demo\eggjs_node\app\middleware\reqLog.js:4:15)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Program Files\demo\eggjs_node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+
+pid: 4156
+hostname: PAFSH-D1154
+
+2018-06-04 21:03:34,629 ERROR 4156 [-/10.28.85.112/-/3ms GET /api/user/test] nodejs.TypeError: Cannot read property 'session' of undefined
+    at UserController.test (D:\Program Files\demo\eggjs_node\app\controller\user.js:46:18)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at reqLog (D:\Program Files\demo\eggjs_node\app\middleware\reqLog.js:4:15)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Program Files\demo\eggjs_node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+
+pid: 4156
+hostname: PAFSH-D1154
+
+2018-06-04 21:03:48,472 ERROR 4156 [-/10.28.85.112/-/5816ms GET /api/user/test] nodejs.TypeError: Cannot read property 'session' of undefined
+    at UserController.test (D:\Program Files\demo\eggjs_node\app\controller\user.js:46:18)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:351:31)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at reqLog (D:\Program Files\demo\eggjs_node\app\middleware\reqLog.js:4:15)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+    at i18n (D:\Program Files\demo\eggjs_node\node_modules\egg-i18n\app\middleware\i18n.js:13:12)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-compose\index.js:42:32)
+
+pid: 4156
+hostname: PAFSH-D1154
+
+2018-06-04 21:13:20,077 ERROR 9388 nodejs.unhandledExceptionError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'unhandledExceptionError'
+pid: 9388
+hostname: PAFSH-D1154
+
+2018-06-04 21:16:27,246 ERROR 11316 nodejs.ECONNRESETError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'ECONNRESETError'
+pid: 11316
+hostname: PAFSH-D1154
+
+2018-06-04 21:16:28,299 ERROR 11316 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 11316
+hostname: PAFSH-D1154
+
+2018-06-04 21:18:51,305 ERROR 1588 [-/10.28.85.112/-/47ms POST /api/user/login] nodejs.TypeError: this.app.redis.set is not a function
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:17:24)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 1588
+hostname: PAFSH-D1154
+
+2018-06-04 21:19:44,847 ERROR 12168 [-/10.28.85.112/-/42ms POST /api/user/login] nodejs.TypeError: this.app.redis.set is not a function
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:17:24)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12168
+hostname: PAFSH-D1154
+
+2018-06-04 21:19:57,150 ERROR 12168 [-/10.28.85.112/-/11ms POST /api/user/login] nodejs.TypeError: this.app.redis.set is not a function
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:17:24)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12168
+hostname: PAFSH-D1154
+
+2018-06-04 21:20:17,090 ERROR 11716 [-/10.28.85.112/-/15006ms POST /api/user/login] nodejs.ReferenceError: app is not defined
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:17:3)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11716
+hostname: PAFSH-D1154
+
+2018-06-04 21:23:43,673 ERROR 11048 [-/10.28.85.112/-/32692ms POST /api/user/login] nodejs.TypeError: this.app.redis.set is not a function
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:17:24)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 11048
+hostname: PAFSH-D1154
+
+2018-06-04 21:24:13,407 ERROR 7848 [-/10.28.85.112/-/31ms POST /api/user/login] nodejs.TypeError: this.app.redis.set is not a function
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:18:24)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7848
+hostname: PAFSH-D1154
+
+2018-06-04 21:25:03,707 ERROR 7848 [-/10.28.85.112/-/35824ms POST /api/user/login] nodejs.TypeError: this.app.redis.set is not a function
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:18:24)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7848
+hostname: PAFSH-D1154
+
+2018-06-04 21:26:19,273 ERROR 7036 [-/10.28.85.112/-/39ms POST /api/user/login] nodejs.TypeError: this.app.redis.set is not a function
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:18:24)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7036
+hostname: PAFSH-D1154
+
+2018-06-04 21:30:23,133 ERROR 10848 nodejs.ECONNRESETError: read ECONNRESET
+    at _errnoException (util.js:992:11)
+    at TCP.onread (net.js:618:25)
+code: 'ECONNRESET'
+errno: 'ECONNRESET'
+syscall: 'read'
+name: 'ECONNRESETError'
+pid: 10848
+hostname: PAFSH-D1154
+
+2018-06-04 21:30:24,186 ERROR 10848 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 10848
+hostname: PAFSH-D1154
+
+2018-06-04 21:30:25,290 ERROR 10848 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 10848
+hostname: PAFSH-D1154
+
+2018-06-04 21:30:26,435 ERROR 10848 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 10848
+hostname: PAFSH-D1154
+
+2018-06-04 21:30:27,636 ERROR 10848 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 10848
+hostname: PAFSH-D1154
+
+2018-06-04 21:30:28,888 ERROR 10848 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 10848
+hostname: PAFSH-D1154
+
+2018-06-04 21:30:30,190 ERROR 10848 nodejs.ECONNREFUSEDError: connect ECONNREFUSED 127.0.0.1:6379
+    at Object._errnoException (util.js:992:11)
+    at _exceptionWithHostPort (util.js:1014:20)
+    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1186:14)
+code: 'ECONNREFUSED'
+errno: 'ECONNREFUSED'
+syscall: 'connect'
+address: '127.0.0.1'
+port: 6379
+name: 'ECONNREFUSEDError'
+pid: 10848
+hostname: PAFSH-D1154
+

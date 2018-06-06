@@ -17,7 +17,7 @@ class UserService extends Service {
 
 	// 检查账户昵称
 	async checkUser(data) {
-		if(!data.type || !data.value) return 'miss params'
+		if(!data.type || !data.value) return false
 		let obj = {};
 		if(data.type == 1){
 			obj.account = data.value

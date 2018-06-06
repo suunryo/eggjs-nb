@@ -1,9 +1,46 @@
-2018-06-04 08:38:08,063 ERROR 10552 A client (::ffff:10.28.85.145:59381) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 08:39:43,564 ERROR 10552 A client (::ffff:10.28.85.165:62784) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 08:40:56,478 ERROR 10552 A client (::ffff:10.28.85.165:64416) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 08:50:57,609 ERROR 10552 A client (::ffff:10.28.85.37:51572) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 09:03:39,591 ERROR 10552 A client (::ffff:10.28.85.95:57181) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 09:04:40,878 ERROR 10552 A client (::ffff:10.28.85.62:50394) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 09:05:07,603 ERROR 10552 A client (::ffff:10.28.85.84:58958) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 09:07:35,411 ERROR 10552 A client (::ffff:10.28.85.84:52020) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-04 09:07:50,774 ERROR 10552 A client (::ffff:10.28.85.62:49705) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 08:41:14,190 ERROR 9980 A client (::ffff:10.28.85.165:60415) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 08:53:37,951 ERROR 9980 A client (::ffff:10.28.85.95:55801) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 08:53:53,148 ERROR 9980 A client (::ffff:10.28.85.145:49168) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 09:05:11,800 ERROR 9980 A client (::ffff:10.28.85.62:56074) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 09:06:56,726 ERROR 9980 A client (::ffff:10.28.85.37:61542) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 09:07:05,645 ERROR 9980 A client (::ffff:10.28.85.84:65396) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 09:08:56,093 ERROR 9980 A client (::ffff:10.28.85.207:56632) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-05 15:21:40,129 ERROR 13100 [-/10.28.85.112/-/132ms POST /api/user/login] nodejs.ReferenceError: myKey is not defined
+    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:18:37)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 13100
+hostname: PAFSH-D1154
+
+2018-06-05 15:22:14,848 ERROR 4640 [-/10.28.85.112/-/4ms GET /api/user/test] nodejs.ReferenceError: session is not defined
+    at UserController.test (D:\Program Files\demo\eggjs_node\app\controller\user.js:45:28)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 4640
+hostname: PAFSH-D1154
+
+2018-06-05 15:22:24,613 ERROR 4640 [-/10.28.85.112/-/2ms GET /api/user/test] nodejs.ReferenceError: session is not defined
+    at UserController.test (D:\Program Files\demo\eggjs_node\app\controller\user.js:45:28)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 4640
+hostname: PAFSH-D1154
+
+2018-06-05 15:55:11,215 ERROR 11724 A client (::ffff:10.28.85.209:53855) error [HPE_INVALID_METHOD] occurred: Parse Error
