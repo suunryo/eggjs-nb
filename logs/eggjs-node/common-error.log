@@ -146,3 +146,120 @@ hostname: PAFSH-D1154
 pid: 8536
 hostname: PAFSH-D1154
 
+2018-06-07 15:59:39,241 ERROR 9200 A client (::ffff:10.28.85.209:64653) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 16:11:07,865 ERROR 9200 [-/10.28.85.112/-/47ms POST /api/user/signup] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'nickname' cannot be null
+    at Query.Sequence._packetToError (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
+    at D:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (D:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
+    at D:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
+    sql: INSERT INTO `user`(`nickname`, `account`, `password`, `birthday`, `gender`, `headurl`) VALUES(NULL, NULL, NULL, '', NULL, NULL)
+code: 'ER_BAD_NULL_ERROR'
+errno: 1048
+sqlMessage: 'Column \'nickname\' cannot be null'
+sqlState: '23000'
+index: 0
+sql: 'INSERT INTO `user`(`nickname`, `account`, `password`, `birthday`, `gender`, `headurl`) VALUES(NULL, NULL, NULL, \'\', NULL, NULL)'
+name: 'ER_BAD_NULL_ERRORError'
+pid: 9200
+hostname: PAFSH-D1154
+
+2018-06-07 16:49:00,700 ERROR 9200 A client (::ffff:10.28.85.15:57669) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 17:11:08,959 ERROR 9380 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.ReferenceError: readChunk is not defined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:29:33)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 9380
+hostname: PAFSH-D1154
+
+2018-06-07 17:32:39,473 ERROR 7348 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.ReferenceError: fsPromises is not defined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:38:5)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 7348
+hostname: PAFSH-D1154
+
+2018-06-07 17:33:56,591 ERROR 12096 [-/10.28.85.112/-/17ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12096
+hostname: PAFSH-D1154
+
+2018-06-07 17:35:03,662 ERROR 12096 [-/10.28.85.112/-/3ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12096
+hostname: PAFSH-D1154
+
+2018-06-07 17:35:11,097 ERROR 12096 [-/10.28.85.112/-/2ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12096
+hostname: PAFSH-D1154
+
+2018-06-07 17:35:11,409 ERROR 12096 [-/10.28.85.112/-/2ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12096
+hostname: PAFSH-D1154
+
+2018-06-07 17:35:21,415 ERROR 12096 [-/10.28.85.112/-/1ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12096
+hostname: PAFSH-D1154
+
+2018-06-07 17:35:21,729 ERROR 12096 [-/10.28.85.112/-/3ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 12096
+hostname: PAFSH-D1154
+
+2018-06-07 17:35:39,290 ERROR 10976 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:40:22)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10976
+hostname: PAFSH-D1154
+
+2018-06-07 18:04:45,630 ERROR 10672 [-/10.28.85.112/-/15ms POST /api/common/uploadfile] nodejs.TypeError: Invalid non-string/buffer chunk
+    at validChunk (_stream_writable.js:254:10)
+    at WriteStream.Writable.write (_stream_writable.js:288:21)
+    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:41:18)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10672
+hostname: PAFSH-D1154
+

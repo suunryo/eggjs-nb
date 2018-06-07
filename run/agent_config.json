@@ -83,8 +83,8 @@
     "watcher": {
       "type": "development",
       "eventSources": {
-        "default": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\lib\\event-sources\\default",
-        "development": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\lib\\event-sources\\development"
+        "default": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\lib\\event-sources\\default",
+        "development": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher\\lib\\event-sources\\development"
       }
     },
     "multipart": {
@@ -108,7 +108,7 @@
     "customLogger": {
       "scheduleLogger": {
         "consoleLevel": "NONE",
-        "file": "D:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node\\egg-schedule.log"
+        "file": "d:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node\\egg-schedule.log"
       }
     },
     "logrotator": {
@@ -122,14 +122,14 @@
     },
     "static": {
       "prefix": "/public/",
-      "dir": "D:\\Program Files\\demo\\eggjs_node\\app\\public",
+      "dir": "d:\\Program Files\\demo\\eggjs_node\\app\\public",
       "dynamic": true,
       "preload": false,
       "buffer": false,
       "maxFiles": 1000
     },
     "view": {
-      "root": "D:\\Program Files\\demo\\eggjs_node\\app\\view",
+      "root": "d:\\Program Files\\demo\\eggjs_node\\app\\view",
       "cache": false,
       "defaultExtension": ".html",
       "defaultViewEngine": "",
@@ -170,21 +170,22 @@
       "author": "ryo",
       "license": "ISC",
       "dependencies": {
+        "await-stream-ready": "^1.0.1",
+        "bluebird": "^3.5.1",
         "egg": "^2.8.1",
         "egg-mysql": "^3.0.0",
         "egg-redis": "^2.0.0",
         "egg-static": "^2.1.1",
         "egg-view-nunjucks": "^2.2.0",
-        "md5": "^2.2.1",
         "stream-wormhole": "^1.0.3"
       },
       "devDependencies": {
         "egg-bin": "^4.7.0"
       }
     },
-    "baseDir": "D:\\Program Files\\demo\\eggjs_node",
+    "baseDir": "d:\\Program Files\\demo\\eggjs_node",
     "HOME": "D:\\Users\\sunliang033",
-    "rundir": "D:\\Program Files\\demo\\eggjs_node\\run",
+    "rundir": "d:\\Program Files\\demo\\eggjs_node\\run",
     "dump": {
       "ignore": "<Set>"
     },
@@ -214,7 +215,7 @@
       }
     },
     "logger": {
-      "dir": "D:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node",
+      "dir": "d:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node",
       "encoding": "utf8",
       "env": "local",
       "level": "INFO",
@@ -296,8 +297,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session",
       "version": "3.1.0"
     },
     "security": {
@@ -309,8 +310,8 @@
         "session"
       ],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security",
       "version": "2.2.2"
     },
     "jsonp": {
@@ -322,8 +323,8 @@
         "security"
       ],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-jsonp",
       "version": "2.0.0"
     },
     "onerror": {
@@ -335,8 +336,8 @@
         "jsonp"
       ],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-onerror",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-onerror",
       "version": "2.0.0"
     },
     "i18n": {
@@ -346,8 +347,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-i18n",
       "version": "2.0.0"
     },
     "watcher": {
@@ -357,8 +358,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-watcher",
       "version": "3.0.0"
     },
     "multipart": {
@@ -368,8 +369,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-multipart",
       "version": "2.0.0"
     },
     "development": {
@@ -383,8 +384,8 @@
       "env": [
         "local"
       ],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-development",
       "version": "2.2.0"
     },
     "schedule": {
@@ -394,8 +395,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-schedule",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-schedule",
       "version": "3.3.0"
     },
     "logrotator": {
@@ -407,8 +408,8 @@
       ],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-logrotator",
       "version": "3.0.3"
     },
     "static": {
@@ -418,8 +419,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-static",
       "version": "2.1.1"
     },
     "view": {
@@ -429,8 +430,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-view",
       "version": "2.1.0"
     },
     "mysql": {
@@ -440,8 +441,8 @@
       "dependencies": [],
       "optionalDependencies": [],
       "env": [],
-      "from": "D:\\Program Files\\demo\\eggjs_node\\config\\plugin.js",
-      "path": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-mysql",
+      "from": "d:\\Program Files\\demo\\eggjs_node\\config\\plugin.js",
+      "path": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-mysql",
       "version": "3.0.0"
     }
   }
