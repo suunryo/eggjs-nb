@@ -12,13 +12,14 @@
   "license": "ISC",
   "dependencies": {
     "egg": "^2.8.1",
+    "egg-mysql": "^3.0.0",
     "egg-redis": "^2.0.0",
     "egg-static": "^2.1.1",
     "egg-view-nunjucks": "^2.2.0",
+    "md5": "^2.2.1",
     "stream-wormhole": "^1.0.3"
   },
   "devDependencies": {
-    "egg-bin": "^4.7.0",
-    "egg-mysql": "^3.0.0"
+    "egg-bin": "^4.7.0"
   }
 }

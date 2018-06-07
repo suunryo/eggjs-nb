@@ -19,7 +19,7 @@ exports.static = {
 };
 
 exports.path = {
-  baseDir: 'D:/Program Files/demo/eggjs_node/',
+  baseDir: 'D:/Program Files/demo/eggjs_node',
   baseUrl: 'http://127.0.0.1:7001',
   baseRoute: '/api'
 }

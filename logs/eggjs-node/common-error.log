@@ -96,3 +96,37 @@ name: 'EPERMError'
 pid: 10100
 hostname: PAFSH-D1154
 
+2018-06-07 11:59:06,319 ERROR 8492 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
+    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:29:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8492
+hostname: PAFSH-D1154
+
+2018-06-07 11:59:52,791 ERROR 10604 [-/10.28.85.112/-/15ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
+    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:29:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10604
+hostname: PAFSH-D1154
+
+2018-06-07 12:00:11,617 ERROR 10604 [-/10.28.85.112/-/10097ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
+    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:29:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10604
+hostname: PAFSH-D1154
+
+2018-06-07 12:39:15,030 ERROR 10604 A client (::ffff:10.28.85.62:55880) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 12:40:29,047 ERROR 10604 A client (::ffff:10.28.85.62:56298) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 13:54:38,821 ERROR 10984 [-/10.28.85.112/-/53801ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
+    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:30:17)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 10984
+hostname: PAFSH-D1154
+
