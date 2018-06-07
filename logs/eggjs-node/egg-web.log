@@ -1547,3 +1547,88 @@
 2018-06-07 19:28:28,223 INFO 9244 [egg-watcher:app] watcher start success
 2018-06-07 19:28:28,225 INFO 9244 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 19:28:28 GMT+0800 (中国标准时间)
 2018-06-07 19:28:28,233 INFO 9244 [egg:core] dump config after ready, 6ms
+2018-06-07 19:29:10,488 INFO 11928 [egg:logger] init all loggers with options: {"dir":"d:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-07 19:29:10,540 INFO 11928 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-07 19:29:10,541 INFO 11928 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-07 19:29:10,572 INFO 11928 [egg-mysql] connecting root@localhost:3306/test
+2018-06-07 19:29:10,746 INFO 11928 [egg-static] starting static serve /public/ -> d:\Program Files\demo\eggjs_node\app\public
+2018-06-07 19:29:10,748 INFO 11928 [egg-security] use csrf middleware
+2018-06-07 19:29:10,749 INFO 11928 [egg-security] use methodnoallow middleware
+2018-06-07 19:29:10,750 INFO 11928 [egg-security] use noopen middleware
+2018-06-07 19:29:10,750 INFO 11928 [egg-security] use nosniff middleware
+2018-06-07 19:29:10,751 INFO 11928 [egg-security] use xssProtection middleware
+2018-06-07 19:29:10,751 INFO 11928 [egg-security] use xframe middleware
+2018-06-07 19:29:10,752 INFO 11928 [egg-security] use dta middleware
+2018-06-07 19:29:10,752 INFO 11928 [egg-security] compose 7 middlewares into one security middleware
+2018-06-07 19:29:10,789 INFO 11928 [egg:core] dump config after load, 20ms
+2018-06-07 19:29:10,816 INFO 11928 [egg-watcher:app] watcher start success
+2018-06-07 19:29:10,821 INFO 11928 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 19:29:10 GMT+0800 (中国标准时间)
+2018-06-07 19:29:10,851 INFO 11928 [egg:core] dump config after ready, 25ms
+2018-06-07 19:33:58,344 INFO 11908 [egg:logger] init all loggers with options: {"dir":"d:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-07 19:33:58,390 INFO 11908 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-07 19:33:58,390 INFO 11908 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-07 19:33:58,412 INFO 11908 [egg-mysql] connecting root@localhost:3306/test
+2018-06-07 19:33:58,549 INFO 11908 [egg-static] starting static serve /public/ -> d:\Program Files\demo\eggjs_node\app\public
+2018-06-07 19:33:58,551 INFO 11908 [egg-security] use csrf middleware
+2018-06-07 19:33:58,552 INFO 11908 [egg-security] use methodnoallow middleware
+2018-06-07 19:33:58,553 INFO 11908 [egg-security] use noopen middleware
+2018-06-07 19:33:58,554 INFO 11908 [egg-security] use nosniff middleware
+2018-06-07 19:33:58,554 INFO 11908 [egg-security] use xssProtection middleware
+2018-06-07 19:33:58,555 INFO 11908 [egg-security] use xframe middleware
+2018-06-07 19:33:58,555 INFO 11908 [egg-security] use dta middleware
+2018-06-07 19:33:58,555 INFO 11908 [egg-security] compose 7 middlewares into one security middleware
+2018-06-07 19:33:58,576 INFO 11908 [egg:core] dump config after load, 9ms
+2018-06-07 19:33:58,596 INFO 11908 [egg-watcher:app] watcher start success
+2018-06-07 19:33:58,599 INFO 11908 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 19:33:58 GMT+0800 (中国标准时间)
+2018-06-07 19:33:58,607 INFO 11908 [egg:core] dump config after ready, 7ms
+2018-06-07 19:40:00,382 INFO 6572 [egg:logger] init all loggers with options: {"dir":"d:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-07 19:40:00,423 INFO 6572 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-07 19:40:00,423 INFO 6572 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-07 19:40:00,440 INFO 6572 [egg-mysql] connecting root@localhost:3306/test
+2018-06-07 19:40:00,573 INFO 6572 [egg-static] starting static serve /public/ -> d:\Program Files\demo\eggjs_node\app\public
+2018-06-07 19:40:00,576 INFO 6572 [egg-security] use csrf middleware
+2018-06-07 19:40:00,577 INFO 6572 [egg-security] use methodnoallow middleware
+2018-06-07 19:40:00,578 INFO 6572 [egg-security] use noopen middleware
+2018-06-07 19:40:00,578 INFO 6572 [egg-security] use nosniff middleware
+2018-06-07 19:40:00,579 INFO 6572 [egg-security] use xssProtection middleware
+2018-06-07 19:40:00,579 INFO 6572 [egg-security] use xframe middleware
+2018-06-07 19:40:00,580 INFO 6572 [egg-security] use dta middleware
+2018-06-07 19:40:00,580 INFO 6572 [egg-security] compose 7 middlewares into one security middleware
+2018-06-07 19:40:00,597 INFO 6572 [egg:core] dump config after load, 8ms
+2018-06-07 19:40:00,616 INFO 6572 [egg-watcher:app] watcher start success
+2018-06-07 19:40:00,618 INFO 6572 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 19:40:00 GMT+0800 (中国标准时间)
+2018-06-07 19:40:00,626 INFO 6572 [egg:core] dump config after ready, 7ms
+2018-06-07 19:40:49,887 INFO 8844 [egg:logger] init all loggers with options: {"dir":"d:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-07 19:40:49,933 INFO 8844 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-07 19:40:49,933 INFO 8844 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-07 19:40:49,951 INFO 8844 [egg-mysql] connecting root@localhost:3306/test
+2018-06-07 19:40:50,077 INFO 8844 [egg-static] starting static serve /public/ -> d:\Program Files\demo\eggjs_node\app\public
+2018-06-07 19:40:50,080 INFO 8844 [egg-security] use csrf middleware
+2018-06-07 19:40:50,081 INFO 8844 [egg-security] use methodnoallow middleware
+2018-06-07 19:40:50,081 INFO 8844 [egg-security] use noopen middleware
+2018-06-07 19:40:50,082 INFO 8844 [egg-security] use nosniff middleware
+2018-06-07 19:40:50,082 INFO 8844 [egg-security] use xssProtection middleware
+2018-06-07 19:40:50,083 INFO 8844 [egg-security] use xframe middleware
+2018-06-07 19:40:50,083 INFO 8844 [egg-security] use dta middleware
+2018-06-07 19:40:50,083 INFO 8844 [egg-security] compose 7 middlewares into one security middleware
+2018-06-07 19:40:50,121 INFO 8844 [egg:core] dump config after load, 8ms
+2018-06-07 19:40:50,136 INFO 8844 [egg-watcher:app] watcher start success
+2018-06-07 19:40:50,138 INFO 8844 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 19:40:50 GMT+0800 (中国标准时间)
+2018-06-07 19:40:50,144 INFO 8844 [egg:core] dump config after ready, 5ms
+2018-06-07 19:41:45,484 INFO 876 [egg:logger] init all loggers with options: {"dir":"d:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-07 19:41:45,522 INFO 876 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-07 19:41:45,522 INFO 876 [egg-schedule]: register schedule d:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-07 19:41:45,538 INFO 876 [egg-mysql] connecting root@localhost:3306/test
+2018-06-07 19:41:45,669 INFO 876 [egg-static] starting static serve /public/ -> d:\Program Files\demo\eggjs_node\app\public
+2018-06-07 19:41:45,671 INFO 876 [egg-security] use csrf middleware
+2018-06-07 19:41:45,672 INFO 876 [egg-security] use methodnoallow middleware
+2018-06-07 19:41:45,673 INFO 876 [egg-security] use noopen middleware
+2018-06-07 19:41:45,673 INFO 876 [egg-security] use nosniff middleware
+2018-06-07 19:41:45,674 INFO 876 [egg-security] use xssProtection middleware
+2018-06-07 19:41:45,674 INFO 876 [egg-security] use xframe middleware
+2018-06-07 19:41:45,675 INFO 876 [egg-security] use dta middleware
+2018-06-07 19:41:45,675 INFO 876 [egg-security] compose 7 middlewares into one security middleware
+2018-06-07 19:41:45,717 INFO 876 [egg:core] dump config after load, 9ms
+2018-06-07 19:41:45,731 INFO 876 [egg-watcher:app] watcher start success
+2018-06-07 19:41:45,733 INFO 876 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 19:41:45 GMT+0800 (中国标准时间)
+2018-06-07 19:41:45,740 INFO 876 [egg:core] dump config after ready, 6ms

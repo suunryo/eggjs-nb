@@ -201,7 +201,6 @@
       "license": "ISC",
       "dependencies": {
         "await-stream-ready": "^1.0.1",
-        "bluebird": "^3.5.1",
         "egg": "^2.8.1",
         "egg-mysql": "^3.0.0",
         "egg-redis": "^2.0.0",

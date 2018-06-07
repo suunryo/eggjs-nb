@@ -13,24 +13,24 @@ class CommonController extends Controller {
     const ctx = this.ctx;
     const fileStream = await ctx.getFileStream();
     // 目标路径
-    const path = this.config.path.baseDir + '/app/public/' + fileStream.fieldname
+    const targetPath = path.join(this.config.path.baseDir, 'app/public/', fileStream.fieldname)
     // 文件夹不存在  则创建文件夹
-    if (!fs.existsSync(path)) fs.mkdirSync(path);
+    if (!fs.existsSync(targetPath)) fs.mkdirSync(targetPath);
     // 获取文件后缀
-    let p = fileStream.filename.lastIndexOf('.') == -1 ? '' : fileStream.filename.lastIndexOf('.')
-    let t = fileStream.filename.substr(Number(p))
+    const t = path.extname(fileStream.filename) || ''
     // 文件名+时间进行hash
     const hash = crypto.createHash('md5')
     hash.update(fileStream.filename + new Date().toString())
     // hash后的文件名
-    let n = hash.digest('hex') + t.toString()
-
-    const writeStream = fs.createWriteStream(path + '/' + n);
+    const n = hash.digest('hex') + t.toString()
+    // 创建一个可读流
+    const writeStream = fs.createWriteStream(targetPath + '/' + n);
 
     try {
         await awaitWriteStream(fileStream.pipe(writeStream))
     } catch (error) {
-        await sendToWormhole(stream);
+        // 异常则消耗stream
+        await sendToWormhole(fileStream);
         throw err;
     }
 
