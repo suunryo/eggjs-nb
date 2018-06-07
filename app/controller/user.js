@@ -4,8 +4,7 @@ class UserController extends Controller {
 	// 登录
 	async login() {
 		const ctx = this.ctx;
-		const account = ctx.request.body.account
-		const password = ctx.request.body.password
+		const {account, password} = ctx.request.body
 		const result = await ctx.service.user.login(account, password)
 
 		if(!result){
@@ -13,8 +12,6 @@ class UserController extends Controller {
 		}else if(result.password != password){
 			ctx.body = ctx.__error('密码不正确')
 		}else{
-			// maxAge: 10 * 60 * 1000,
-			console.log(typeof result.id.toString())
 			ctx.cookies.set('sun', result.id.toString(), {
 				path: '/',
 				encrypt: true,
@@ -55,7 +52,7 @@ class UserController extends Controller {
 		})
 
 		const result = await ctx.service.user.getUserInfo(userId)
-		ctx.body = result ? ctx.__success(result) : ctx.__error
+		ctx.body = result ? ctx.__success(result) : ctx.__error()
 	}
 
 	async test(){

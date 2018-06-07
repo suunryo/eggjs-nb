@@ -1,294 +1,98 @@
-2018-06-06 16:33:38,542 ERROR 10644 [-/10.28.85.112/-/85ms POST /api/user/login] nodejs.TypeError: Cipher data must be a string or a buffer
-    at Cipher.update (crypto.js:170:26)
-    at crypt (D:\Program Files\demo\eggjs_node\node_modules\egg-cookies\lib\keygrip.js:78:23)
-    at Keygrip.encrypt (D:\Program Files\demo\eggjs_node\node_modules\egg-cookies\lib\keygrip.js:29:12)
-    at Cookies.set (D:\Program Files\demo\eggjs_node\node_modules\egg-cookies\lib\cookies.js:102:55)
-    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:16:16)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10644
+2018-06-07 08:36:52,051 ERROR 7568 A client (::ffff:10.28.85.165:50808) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 08:49:36,450 ERROR 7568 A client (::ffff:10.28.85.37:64671) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 09:00:42,854 ERROR 7568 A client (::ffff:10.28.85.145:65505) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 09:12:14,014 ERROR 7568 A client (::ffff:10.28.85.95:61609) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 09:12:56,190 ERROR 7568 A client (::ffff:10.28.85.84:52407) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 09:13:50,680 ERROR 7568 A client (::ffff:10.28.85.84:52452) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-07 10:03:08,106 ERROR 10836 nodejs.ClusterClientNoResponseError: client no response in 63588ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\Program Files\demo\eggjs_node\node_modules\cluster-client\lib\leader.js:74:23)
+    at ontimeout (timers.js:498:11)
+    at tryOnTimeout (timers.js:323:5)
+    at Timer.listOnTimeout (timers.js:290:5)
+name: 'ClusterClientNoResponseError'
+pid: 10836
 hostname: PAFSH-D1154
 
-2018-06-06 16:34:42,479 ERROR 10644 [-/10.28.85.112/-/48600ms POST /api/user/login] nodejs.TypeError: Cipher data must be a string or a buffer
-    at Cipher.update (crypto.js:170:26)
-    at crypt (D:\Program Files\demo\eggjs_node\node_modules\egg-cookies\lib\keygrip.js:78:23)
-    at Keygrip.encrypt (D:\Program Files\demo\eggjs_node\node_modules\egg-cookies\lib\keygrip.js:29:12)
-    at Cookies.set (D:\Program Files\demo\eggjs_node\node_modules\egg-cookies\lib\cookies.js:102:55)
-    at UserController.login (D:\Program Files\demo\eggjs_node\app\controller\user.js:16:16)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10644
-hostname: PAFSH-D1154
-
-2018-06-06 16:35:41,947 ERROR 9120 [-/10.28.85.112/-/3824ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
+2018-06-07 10:06:30,230 ERROR 10024 A client (undefined:NaN) error [ECONNABORTED] occurred: write ECONNABORTED
+2018-06-07 10:06:30,233 ERROR 10024 [-/undefined/-/264297ms POST /api/common/uploadfile] nodejs.ECONNABORTEDError: write ECONNABORTED
+    at _errnoException (util.js:992:11)
+    at Socket._writeGeneric (net.js:764:25)
+    at Socket._write (net.js:783:8)
+    at doWrite (_stream_writable.js:397:12)
+    at clearBuffer (_stream_writable.js:524:7)
+    at Socket.Writable.uncork (_stream_writable.js:313:7)
+    at ServerResponse.end (_http_outgoing.js:771:21)
+    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:248:7)
     at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
     at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 9120
+code: 'ECONNABORTED'
+errno: 'ECONNABORTED'
+syscall: 'write'
+headerSent: true
+name: 'ECONNABORTEDError'
+pid: 10024
 hostname: PAFSH-D1154
 
-2018-06-06 16:36:25,116 ERROR 9120 [-/10.28.85.112/-/21651ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 9120
+2018-06-07 10:06:30,250 ERROR 10024 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:52442)
+    at _errnoException (util.js:992:11)
+    at Socket._writeGeneric (net.js:764:25)
+    at Socket._write (net.js:783:8)
+    at doWrite (_stream_writable.js:397:12)
+    at writeOrBuffer (_stream_writable.js:383:5)
+    at Socket.Writable.write (_stream_writable.js:290:11)
+    at Socket.write (net.js:707:40)
+    at Follower.sendHeartBeat (D:\Program Files\demo\eggjs_node\node_modules\tcp-base\lib\base.js:105:18)
+    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\Program Files\demo\eggjs_node\node_modules\tcp-base\lib\base.js:437:12)
+    at ontimeout (timers.js:498:11)
+code: 'ECONNABORTED'
+errno: 'ECONNABORTED'
+syscall: 'write'
+name: 'ECONNABORTEDError'
+pid: 10024
 hostname: PAFSH-D1154
 
-2018-06-06 16:36:34,589 ERROR 9120 [-/10.28.85.112/-/5ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
+2018-06-07 10:06:59,570 ERROR 6100 [-/10.28.85.112/-/17753ms POST /api/common/uploadfile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir 'D:\public\avatar'
+    at Object.fs.mkdirSync (fs.js:885:18)
+    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:14:12)
     at <anonymous>
     at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 9120
+errno: -4058
+code: 'ENOENT'
+syscall: 'mkdir'
+path: 'D:\\public\\avatar'
+name: 'ENOENTError'
+pid: 6100
 hostname: PAFSH-D1154
 
-2018-06-06 16:38:01,611 ERROR 10532 [-/10.28.85.112/-/26ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10532
+2018-06-07 10:14:21,698 ERROR 1104 nodejs.EISDIRError: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar' (uncaughtException throw 1 times on pid:1104)
+EISDIRError: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar' (uncaughtException throw 1 times on pid:1104)
+errno: -4068
+code: 'EISDIR'
+syscall: 'open'
+path: 'D:\\Program Files\\demo\\eggjs_node\\app\\public\\avatar'
+name: 'EISDIRError'
+pid: 1104
 hostname: PAFSH-D1154
 
-2018-06-06 16:40:54,387 ERROR 5516 [-/10.28.85.112/-/28ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 5516
+2018-06-07 10:17:57,649 ERROR 9320 nodejs.EISDIRError: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar' (uncaughtException throw 1 times on pid:9320)
+Error: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar'
+errno: -4068
+code: 'EISDIR'
+syscall: 'open'
+path: 'D:\\Program Files\\demo\\eggjs_node\\app\\public\\avatar'
+name: 'EISDIRError'
+pid: 9320
 hostname: PAFSH-D1154
 
-2018-06-06 16:41:17,984 ERROR 816 [-/10.28.85.112/-/50ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 816
-hostname: PAFSH-D1154
-
-2018-06-06 16:44:22,400 ERROR 10824 [-/10.28.85.112/-/35ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10824
-hostname: PAFSH-D1154
-
-2018-06-06 16:45:24,877 ERROR 10576 [-/10.28.85.112/-/23ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10576
-hostname: PAFSH-D1154
-
-2018-06-06 16:45:52,079 ERROR 8500 [-/10.28.85.112/-/20ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 8500
-hostname: PAFSH-D1154
-
-2018-06-06 16:46:06,295 ERROR 9456 [-/10.28.85.112/-/21ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 9456
-hostname: PAFSH-D1154
-
-2018-06-06 16:46:20,860 ERROR 10888 [-/10.28.85.112/-/23ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10888
-hostname: PAFSH-D1154
-
-2018-06-06 16:47:33,758 ERROR 6080 [-/10.28.85.112/-/18ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:47:45,733 ERROR 6080 [-/10.28.85.112/-/3ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:47:49,296 ERROR 6080 [-/10.28.85.112/-/4ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:47:50,818 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:47:55,245 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:47:57,499 ERROR 6080 [-/10.28.85.112/-/3ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:47:57,748 ERROR 6080 [-/10.28.85.112/-/1ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:03,068 ERROR 6080 [-/10.28.85.112/-/6ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:12,517 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:20,600 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:21,682 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:21,843 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:21,933 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:22,017 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:48:22,187 ERROR 6080 [-/10.28.85.112/-/2ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (d:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 6080
-hostname: PAFSH-D1154
-
-2018-06-06 16:49:06,082 ERROR 9864 [-/10.28.85.112/-/18993ms POST /api/user/login] nodejs.TypeError: "string" must be a string, Buffer, or ArrayBuffer
-    at Function.byteLength (buffer.js:481:11)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:246:25)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 9864
+2018-06-07 11:11:44,848 ERROR 10100 nodejs.EPERMError: Error watching file for changes: EPERM
+    at _errnoException (util.js:992:11)
+    at FSEvent.FSWatcher._handle.onchange (fs.js:1359:9)
+code: 'EPERM'
+errno: 'EPERM'
+syscall: 'Error watching file for changes:'
+filename: null
+dir: 'd:\\Program Files\\demo\\eggjs_node\\app\\public\\avatar'
+name: 'EPERMError'
+pid: 10100
 hostname: PAFSH-D1154
 

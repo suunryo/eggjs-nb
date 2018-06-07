@@ -5,6 +5,18 @@
       "POST"
     ],
     "paramNames": [],
+    "path": "/api/common/uploadfile",
+    "regexp": "/^\\/api\\/common\\/uploadfile(?:\\/(?=$))?$/",
+    "stack": [
+      "wrappedController"
+    ]
+  },
+  {
+    "name": null,
+    "methods": [
+      "POST"
+    ],
+    "paramNames": [],
     "path": "/api/user/login",
     "regexp": "/^\\/api\\/user\\/login(?:\\/(?=$))?$/",
     "stack": [

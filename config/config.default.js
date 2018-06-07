@@ -13,3 +13,13 @@ exports.mysql = {
 }
 
 exports.middleware = ['reqLog']
+
+exports.static = {
+  // maxAge: 31536000,
+};
+
+exports.path = {
+  baseDir: 'D:/Program Files/demo/eggjs_node/',
+  baseUrl: 'http://127.0.0.1:7001',
+  baseRoute: '/api'
+}
