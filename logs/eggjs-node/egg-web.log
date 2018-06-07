@@ -663,3 +663,37 @@
 2018-06-07 14:03:11,229 INFO 7648 [egg-watcher:app] watcher start success
 2018-06-07 14:03:11,231 INFO 7648 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 14:03:11 GMT+0800 (中国标准时间)
 2018-06-07 14:03:11,239 INFO 7648 [egg:core] dump config after ready, 7ms
+2018-06-07 14:07:30,329 INFO 11352 [egg:logger] init all loggers with options: {"dir":"D:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-07 14:07:30,386 INFO 11352 [egg-schedule]: register schedule D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-07 14:07:30,386 INFO 11352 [egg-schedule]: register schedule D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-07 14:07:30,412 INFO 11352 [egg-mysql] connecting root@localhost:3306/test
+2018-06-07 14:07:30,619 INFO 11352 [egg-static] starting static serve /public/ -> D:\Program Files\demo\eggjs_node\app\public
+2018-06-07 14:07:30,623 INFO 11352 [egg-security] use csrf middleware
+2018-06-07 14:07:30,624 INFO 11352 [egg-security] use methodnoallow middleware
+2018-06-07 14:07:30,625 INFO 11352 [egg-security] use noopen middleware
+2018-06-07 14:07:30,626 INFO 11352 [egg-security] use nosniff middleware
+2018-06-07 14:07:30,627 INFO 11352 [egg-security] use xssProtection middleware
+2018-06-07 14:07:30,628 INFO 11352 [egg-security] use xframe middleware
+2018-06-07 14:07:30,629 INFO 11352 [egg-security] use dta middleware
+2018-06-07 14:07:30,629 INFO 11352 [egg-security] compose 7 middlewares into one security middleware
+2018-06-07 14:07:30,660 INFO 11352 [egg:core] dump config after load, 15ms
+2018-06-07 14:07:30,694 INFO 11352 [egg-watcher:app] watcher start success
+2018-06-07 14:07:30,697 INFO 11352 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 14:07:30 GMT+0800 (中国标准时间)
+2018-06-07 14:07:30,710 INFO 11352 [egg:core] dump config after ready, 11ms
+2018-06-07 14:26:09,085 INFO 8536 [egg:logger] init all loggers with options: {"dir":"D:\\Program Files\\demo\\eggjs_node\\logs\\eggjs-node","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"eggjs-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":true,"type":"application"}
+2018-06-07 14:26:09,126 INFO 8536 [egg-schedule]: register schedule D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\clean_log.js
+2018-06-07 14:26:09,126 INFO 8536 [egg-schedule]: register schedule D:\Program Files\demo\eggjs_node\node_modules\egg-logrotator\app\schedule\rotate_by_file.js
+2018-06-07 14:26:09,147 INFO 8536 [egg-mysql] connecting root@localhost:3306/test
+2018-06-07 14:26:09,308 INFO 8536 [egg-static] starting static serve /public/ -> D:\Program Files\demo\eggjs_node\app\public
+2018-06-07 14:26:09,311 INFO 8536 [egg-security] use csrf middleware
+2018-06-07 14:26:09,313 INFO 8536 [egg-security] use methodnoallow middleware
+2018-06-07 14:26:09,314 INFO 8536 [egg-security] use noopen middleware
+2018-06-07 14:26:09,315 INFO 8536 [egg-security] use nosniff middleware
+2018-06-07 14:26:09,316 INFO 8536 [egg-security] use xssProtection middleware
+2018-06-07 14:26:09,316 INFO 8536 [egg-security] use xframe middleware
+2018-06-07 14:26:09,317 INFO 8536 [egg-security] use dta middleware
+2018-06-07 14:26:09,317 INFO 8536 [egg-security] compose 7 middlewares into one security middleware
+2018-06-07 14:26:09,335 INFO 8536 [egg:core] dump config after load, 7ms
+2018-06-07 14:26:09,351 INFO 8536 [egg-watcher:app] watcher start success
+2018-06-07 14:26:09,354 INFO 8536 [egg-mysql] instance[0] status OK, rds currentTime: Thu Jun 07 2018 14:26:09 GMT+0800 (中国标准时间)
+2018-06-07 14:26:09,362 INFO 8536 [egg:core] dump config after ready, 7ms

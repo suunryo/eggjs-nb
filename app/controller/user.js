@@ -27,6 +27,13 @@ class UserController extends Controller {
 		const data = ctx.request.body
 
 		const result = await ctx.service.user.signup(data)
+
+		ctx.cookies.set('sun', result.toString(), {
+			path: '/',
+			encrypt: true,
+			signed: true
+		})
+
 		ctx.body = ctx.__success({id: result})
 	}
 

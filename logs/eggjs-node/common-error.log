@@ -130,3 +130,19 @@ hostname: PAFSH-D1154
 pid: 10984
 hostname: PAFSH-D1154
 
+2018-06-07 14:27:22,239 ERROR 8536 [-/10.28.85.112/-/39ms POST /api/user/signup] nodejs.TypeError: Cannot read property 'toString' of undefined
+    at UserController.signup (D:\Program Files\demo\eggjs_node\app\controller\user.js:31:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8536
+hostname: PAFSH-D1154
+
+2018-06-07 14:27:47,111 ERROR 8536 [-/10.28.85.112/-/7088ms POST /api/user/signup] nodejs.TypeError: Cannot read property 'toString' of undefined
+    at UserController.signup (D:\Program Files\demo\eggjs_node\app\controller\user.js:31:36)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:188:7)
+
+pid: 8536
+hostname: PAFSH-D1154
+

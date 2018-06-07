@@ -166,6 +166,7 @@
     "license": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "egg": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
+      "egg-mysql": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
       "egg-redis": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
       "egg-static": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
       "egg-view-nunjucks": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
@@ -173,8 +174,7 @@
       "stream-wormhole": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     },
     "devDependencies": {
-      "egg-bin": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "egg-mysql": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
+      "egg-bin": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js"
     }
   },
   "baseDir": "D:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",

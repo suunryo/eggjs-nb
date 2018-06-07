@@ -12,7 +12,7 @@ class CommonController extends Controller {
     const fileStream = await ctx.getFileStream();
 
     const path = this.config.path.baseDir + '/app/public/' + fileStream.fieldname
-    // const filename = md5(fileStream.fil)
+    
     if (!fs.existsSync(path)) {
         fs.mkdirSync(path);
     }
