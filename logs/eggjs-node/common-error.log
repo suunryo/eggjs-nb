@@ -263,3 +263,141 @@ hostname: PAFSH-D1154
 pid: 10672
 hostname: PAFSH-D1154
 
+2018-06-08 09:06:41,421 ERROR 4464 A client (::ffff:10.28.85.145:50375) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-08 09:06:52,049 ERROR 4464 A client (::ffff:10.28.85.95:59958) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-08 09:06:53,127 ERROR 4464 A client (::ffff:10.28.85.37:50397) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-08 09:07:49,327 ERROR 4464 A client (::ffff:10.28.85.62:54393) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-08 09:15:39,531 ERROR 4464 A client (::ffff:10.28.85.84:59097) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-08 09:50:36,739 ERROR 4464 A client (::ffff:10.28.85.207:58686) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-08 10:12:34,111 ERROR 10808 [-/10.28.85.112/-/195ms POST /api/user/login] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
+    at d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
+    at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `account` = '发达' LIMIT 0, 1
+code: 'ER_CANT_AGGREGATE_2COLLATIONS'
+errno: 1267
+sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
+sqlState: 'HY000'
+index: 0
+sql: 'SELECT * FROM `user` WHERE `account` = \'发达\' LIMIT 0, 1'
+name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
+pid: 10808
+hostname: PAFSH-D1154
+
+2018-06-08 10:48:28,053 ERROR 10808 [-/10.28.85.112/-/3ms GET /api/user/checkUser?value=%E5%A4%A7&type=2] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
+    at d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
+    at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `nickname` = '大' LIMIT 0, 1
+code: 'ER_CANT_AGGREGATE_2COLLATIONS'
+errno: 1267
+sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
+sqlState: 'HY000'
+index: 0
+sql: 'SELECT * FROM `user` WHERE `nickname` = \'大\' LIMIT 0, 1'
+name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
+pid: 10808
+hostname: PAFSH-D1154
+
+2018-06-08 10:48:50,455 ERROR 10808 [-/10.28.85.112/-/2ms GET /api/user/checkUser?value=%E7%AC%AC%E4%B8%89%E4%BB%A3&type=1] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
+    at d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
+    at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `account` = '第三代' LIMIT 0, 1
+code: 'ER_CANT_AGGREGATE_2COLLATIONS'
+errno: 1267
+sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
+sqlState: 'HY000'
+index: 0
+sql: 'SELECT * FROM `user` WHERE `account` = \'第三代\' LIMIT 0, 1'
+name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
+pid: 10808
+hostname: PAFSH-D1154
+
+2018-06-08 10:55:31,303 ERROR 10808 [-/10.28.85.112/-/1ms GET /api/user/checkUser?value=%E9%83%BD%E6%98%AF&type=2] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+    at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
+    at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
+    at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
+    at Parser.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
+    at Protocol.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
+    at Socket.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
+    at emitOne (events.js:116:13)
+    at Socket.emit (events.js:211:7)
+    at addChunk (_stream_readable.js:263:12)
+    at readableAddChunk (_stream_readable.js:250:11)
+    --------------------
+    at Pool.query (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
+    at d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
+    at new Promise (<anonymous>)
+    at Pool.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
+    at Pool.ret [as query] (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
+    at RDSClient.proto._query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
+    at RDSClient.proto.query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
+    at proto.query.next (<anonymous>)
+    at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
+    at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
+    sql: SELECT * FROM `user` WHERE `nickname` = '都是' LIMIT 0, 1
+code: 'ER_CANT_AGGREGATE_2COLLATIONS'
+errno: 1267
+sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
+sqlState: 'HY000'
+index: 0
+sql: 'SELECT * FROM `user` WHERE `nickname` = \'都是\' LIMIT 0, 1'
+name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
+pid: 10808
+hostname: PAFSH-D1154
+

@@ -1,7 +1,7 @@
 {
   "config": {
     "session": {
-      "maxAge": 86400000,
+      "maxAge": 10000,
       "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true
@@ -171,7 +171,6 @@
       "license": "ISC",
       "dependencies": {
         "await-stream-ready": "^1.0.1",
-        "bluebird": "^3.5.1",
         "egg": "^2.8.1",
         "egg-mysql": "^3.0.0",
         "egg-redis": "^2.0.0",
@@ -278,7 +277,8 @@
     },
     "onClientError": null,
     "middleware": [
-      "reqLog"
+      "reqLog",
+      "checkSession"
     ],
     "path": {
       "baseDir": "D:/Program Files/demo/eggjs_node",

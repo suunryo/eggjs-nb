@@ -1,10 +1,11 @@
 {
   "config": {
     "session": {
-      "maxAge": 86400000,
+      "maxAge": 1000,
       "key": "EGG_SESS",
       "httpOnly": true,
       "encrypt": true,
+      "renew": false,
       "overwrite": true,
       "signed": true,
       "encode": "<Function encode>",
@@ -312,7 +313,8 @@
     },
     "onClientError": null,
     "middleware": [
-      "reqLog"
+      "reqLog",
+      "checkSession"
     ],
     "path": {
       "baseDir": "D:/Program Files/demo/eggjs_node",

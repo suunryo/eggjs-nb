@@ -12,7 +12,7 @@ exports.mysql = {
   agent: false, // 是否加载到 agent 上，默认关闭
 }
 
-exports.middleware = ['reqLog']
+exports.middleware = ['reqLog', 'checkSession']
 
 exports.static = {
   // maxAge: 31536000,
@@ -23,3 +23,11 @@ exports.path = {
   baseUrl: 'http://127.0.0.1:7001',
   baseRoute: '/api'
 }
+
+exports.session = {
+  key: 'EGG_SESS',
+  maxAge: 1000,
+  httpOnly: true,
+  encrypt: true,
+  renew: false,
+};

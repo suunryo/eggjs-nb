@@ -9,7 +9,7 @@ module.exports = app => {
 	router.post(baseRoute+'/user/signup', controller.user.signup)
 	router.get(baseRoute+'/user/checkUser', controller.user.checkUser)
 	router.get(baseRoute+'/user/getUserInfo', controller.user.getUserInfo)
-	router.get(baseRoute+'/user/test', controller.user.test)
+	router.get(baseRoute+'/user/logout', controller.user.logout)
 
 	router.get(baseRoute+'/content/page', controller.content.page)
 

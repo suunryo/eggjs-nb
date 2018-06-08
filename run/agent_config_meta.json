@@ -23,10 +23,10 @@
     "baseRoute": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js"
   },
   "session": {
-    "maxAge": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
-    "key": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
-    "httpOnly": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js",
-    "encrypt": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-session\\config\\config.default.js"
+    "key": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+    "maxAge": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+    "httpOnly": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js",
+    "encrypt": "d:\\Program Files\\demo\\eggjs_node\\config\\config.default.js"
   },
   "security": {
     "domainWhiteList": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg-security\\config\\config.default.js",
@@ -166,7 +166,6 @@
     "license": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
     "dependencies": {
       "await-stream-ready": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
-      "bluebird": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
       "egg": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
       "egg-mysql": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",
       "egg-redis": "d:\\Program Files\\demo\\eggjs_node\\node_modules\\egg\\config\\config.default.js",

@@ -12,5 +12,11 @@ module.exports = {
             msg: 'error',
             result: result
         }
+    },
+    __notLogin() {
+        return {
+            code: 501,
+            msg: '未登录'
+        }
     }
 }

@@ -68,8 +68,8 @@
       "GET"
     ],
     "paramNames": [],
-    "path": "/api/user/test",
-    "regexp": "/^\\/api\\/user\\/test(?:\\/(?=$))?$/",
+    "path": "/api/user/logout",
+    "regexp": "/^\\/api\\/user\\/logout(?:\\/(?=$))?$/",
     "stack": [
       "wrappedController"
     ]

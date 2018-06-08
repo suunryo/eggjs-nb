@@ -17,6 +17,7 @@ class UserController extends Controller {
 				encrypt: true,
 				signed: true
 			})
+			ctx.session.user = result.id
 			ctx.body = ctx.__success()
 		}
 	}
@@ -33,7 +34,8 @@ class UserController extends Controller {
 			encrypt: true,
 			signed: true
 		})
-
+		ctx.session.user = result.id
+		
 		ctx.body = ctx.__success({id: result})
 	}
 
@@ -62,9 +64,11 @@ class UserController extends Controller {
 		ctx.body = result ? ctx.__success(result) : ctx.__error()
 	}
 
-	async test(){
+	async logout(){
 		const ctx = this.ctx
 		
+		ctx.cookies.set('sun', null)
+		ctx.session.user = null
 		ctx.body = ctx.__success()
 	}
 }
