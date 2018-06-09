@@ -1,275 +1,6 @@
-2018-06-07 08:36:52,051 ERROR 7568 A client (::ffff:10.28.85.165:50808) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 08:49:36,450 ERROR 7568 A client (::ffff:10.28.85.37:64671) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 09:00:42,854 ERROR 7568 A client (::ffff:10.28.85.145:65505) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 09:12:14,014 ERROR 7568 A client (::ffff:10.28.85.95:61609) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 09:12:56,190 ERROR 7568 A client (::ffff:10.28.85.84:52407) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 09:13:50,680 ERROR 7568 A client (::ffff:10.28.85.84:52452) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 10:03:08,106 ERROR 10836 nodejs.ClusterClientNoResponseError: client no response in 63588ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
-    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (D:\Program Files\demo\eggjs_node\node_modules\cluster-client\lib\leader.js:74:23)
-    at ontimeout (timers.js:498:11)
-    at tryOnTimeout (timers.js:323:5)
-    at Timer.listOnTimeout (timers.js:290:5)
-name: 'ClusterClientNoResponseError'
-pid: 10836
-hostname: PAFSH-D1154
-
-2018-06-07 10:06:30,230 ERROR 10024 A client (undefined:NaN) error [ECONNABORTED] occurred: write ECONNABORTED
-2018-06-07 10:06:30,233 ERROR 10024 [-/undefined/-/264297ms POST /api/common/uploadfile] nodejs.ECONNABORTEDError: write ECONNABORTED
-    at _errnoException (util.js:992:11)
-    at Socket._writeGeneric (net.js:764:25)
-    at Socket._write (net.js:783:8)
-    at doWrite (_stream_writable.js:397:12)
-    at clearBuffer (_stream_writable.js:524:7)
-    at Socket.Writable.uncork (_stream_writable.js:313:7)
-    at ServerResponse.end (_http_outgoing.js:771:21)
-    at respond (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:248:7)
-    at handleResponse (D:\Program Files\demo\eggjs_node\node_modules\koa\lib\application.js:148:34)
-    at <anonymous>
-code: 'ECONNABORTED'
-errno: 'ECONNABORTED'
-syscall: 'write'
-headerSent: true
-name: 'ECONNABORTEDError'
-pid: 10024
-hostname: PAFSH-D1154
-
-2018-06-07 10:06:30,250 ERROR 10024 nodejs.ECONNABORTEDError: write ECONNABORTED (address: 127.0.0.1:52442)
-    at _errnoException (util.js:992:11)
-    at Socket._writeGeneric (net.js:764:25)
-    at Socket._write (net.js:783:8)
-    at doWrite (_stream_writable.js:397:12)
-    at writeOrBuffer (_stream_writable.js:383:5)
-    at Socket.Writable.write (_stream_writable.js:290:11)
-    at Socket.write (net.js:707:40)
-    at Follower.sendHeartBeat (D:\Program Files\demo\eggjs_node\node_modules\tcp-base\lib\base.js:105:18)
-    at Timeout._heartbeatTimer.setInterval [as _onTimeout] (D:\Program Files\demo\eggjs_node\node_modules\tcp-base\lib\base.js:437:12)
-    at ontimeout (timers.js:498:11)
-code: 'ECONNABORTED'
-errno: 'ECONNABORTED'
-syscall: 'write'
-name: 'ECONNABORTEDError'
-pid: 10024
-hostname: PAFSH-D1154
-
-2018-06-07 10:06:59,570 ERROR 6100 [-/10.28.85.112/-/17753ms POST /api/common/uploadfile] nodejs.ENOENTError: ENOENT: no such file or directory, mkdir 'D:\public\avatar'
-    at Object.fs.mkdirSync (fs.js:885:18)
-    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:14:12)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-errno: -4058
-code: 'ENOENT'
-syscall: 'mkdir'
-path: 'D:\\public\\avatar'
-name: 'ENOENTError'
-pid: 6100
-hostname: PAFSH-D1154
-
-2018-06-07 10:14:21,698 ERROR 1104 nodejs.EISDIRError: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar' (uncaughtException throw 1 times on pid:1104)
-EISDIRError: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar' (uncaughtException throw 1 times on pid:1104)
-errno: -4068
-code: 'EISDIR'
-syscall: 'open'
-path: 'D:\\Program Files\\demo\\eggjs_node\\app\\public\\avatar'
-name: 'EISDIRError'
-pid: 1104
-hostname: PAFSH-D1154
-
-2018-06-07 10:17:57,649 ERROR 9320 nodejs.EISDIRError: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar' (uncaughtException throw 1 times on pid:9320)
-Error: EISDIR: illegal operation on a directory, open 'D:\Program Files\demo\eggjs_node\app\public\avatar'
-errno: -4068
-code: 'EISDIR'
-syscall: 'open'
-path: 'D:\\Program Files\\demo\\eggjs_node\\app\\public\\avatar'
-name: 'EISDIRError'
-pid: 9320
-hostname: PAFSH-D1154
-
-2018-06-07 11:11:44,848 ERROR 10100 nodejs.EPERMError: Error watching file for changes: EPERM
-    at _errnoException (util.js:992:11)
-    at FSEvent.FSWatcher._handle.onchange (fs.js:1359:9)
-code: 'EPERM'
-errno: 'EPERM'
-syscall: 'Error watching file for changes:'
-filename: null
-dir: 'd:\\Program Files\\demo\\eggjs_node\\app\\public\\avatar'
-name: 'EPERMError'
-pid: 10100
-hostname: PAFSH-D1154
-
-2018-06-07 11:59:06,319 ERROR 8492 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:29:17)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 8492
-hostname: PAFSH-D1154
-
-2018-06-07 11:59:52,791 ERROR 10604 [-/10.28.85.112/-/15ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
-    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:29:17)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10604
-hostname: PAFSH-D1154
-
-2018-06-07 12:00:11,617 ERROR 10604 [-/10.28.85.112/-/10097ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
-    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:29:17)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10604
-hostname: PAFSH-D1154
-
-2018-06-07 12:39:15,030 ERROR 10604 A client (::ffff:10.28.85.62:55880) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 12:40:29,047 ERROR 10604 A client (::ffff:10.28.85.62:56298) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 13:54:38,821 ERROR 10984 [-/10.28.85.112/-/53801ms POST /api/common/uploadfile] nodejs.ReferenceError: url is not defined
-    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:30:17)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10984
-hostname: PAFSH-D1154
-
-2018-06-07 14:27:22,239 ERROR 8536 [-/10.28.85.112/-/39ms POST /api/user/signup] nodejs.TypeError: Cannot read property 'toString' of undefined
-    at UserController.signup (D:\Program Files\demo\eggjs_node\app\controller\user.js:31:36)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 8536
-hostname: PAFSH-D1154
-
-2018-06-07 14:27:47,111 ERROR 8536 [-/10.28.85.112/-/7088ms POST /api/user/signup] nodejs.TypeError: Cannot read property 'toString' of undefined
-    at UserController.signup (D:\Program Files\demo\eggjs_node\app\controller\user.js:31:36)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 8536
-hostname: PAFSH-D1154
-
-2018-06-07 15:59:39,241 ERROR 9200 A client (::ffff:10.28.85.209:64653) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 16:11:07,865 ERROR 9200 [-/10.28.85.112/-/47ms POST /api/user/signup] nodejs.ER_BAD_NULL_ERRORError: ER_BAD_NULL_ERROR: Column 'nickname' cannot be null
-    at Query.Sequence._packetToError (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
-    at Query.ErrorPacket (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
-    at Protocol._parsePacket (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
-    at Parser.write (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
-    at Protocol.write (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
-    at Socket.<anonymous> (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
-    at emitOne (events.js:116:13)
-    at Socket.emit (events.js:211:7)
-    at addChunk (_stream_readable.js:263:12)
-    at readableAddChunk (_stream_readable.js:250:11)
-    --------------------
-    at Pool.query (D:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
-    at D:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
-    at new Promise (<anonymous>)
-    at Pool.<anonymous> (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
-    at Pool.ret [as query] (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
-    at RDSClient.proto._query (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
-    at RDSClient.proto.query (D:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
-    at proto.query.next (<anonymous>)
-    at onFulfilled (D:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
-    at D:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
-    sql: INSERT INTO `user`(`nickname`, `account`, `password`, `birthday`, `gender`, `headurl`) VALUES(NULL, NULL, NULL, '', NULL, NULL)
-code: 'ER_BAD_NULL_ERROR'
-errno: 1048
-sqlMessage: 'Column \'nickname\' cannot be null'
-sqlState: '23000'
-index: 0
-sql: 'INSERT INTO `user`(`nickname`, `account`, `password`, `birthday`, `gender`, `headurl`) VALUES(NULL, NULL, NULL, \'\', NULL, NULL)'
-name: 'ER_BAD_NULL_ERRORError'
-pid: 9200
-hostname: PAFSH-D1154
-
-2018-06-07 16:49:00,700 ERROR 9200 A client (::ffff:10.28.85.15:57669) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-07 17:11:08,959 ERROR 9380 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.ReferenceError: readChunk is not defined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:29:33)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 9380
-hostname: PAFSH-D1154
-
-2018-06-07 17:32:39,473 ERROR 7348 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.ReferenceError: fsPromises is not defined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:38:5)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 7348
-hostname: PAFSH-D1154
-
-2018-06-07 17:33:56,591 ERROR 12096 [-/10.28.85.112/-/17ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 12096
-hostname: PAFSH-D1154
-
-2018-06-07 17:35:03,662 ERROR 12096 [-/10.28.85.112/-/3ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 12096
-hostname: PAFSH-D1154
-
-2018-06-07 17:35:11,097 ERROR 12096 [-/10.28.85.112/-/2ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 12096
-hostname: PAFSH-D1154
-
-2018-06-07 17:35:11,409 ERROR 12096 [-/10.28.85.112/-/2ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 12096
-hostname: PAFSH-D1154
-
-2018-06-07 17:35:21,415 ERROR 12096 [-/10.28.85.112/-/1ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 12096
-hostname: PAFSH-D1154
-
-2018-06-07 17:35:21,729 ERROR 12096 [-/10.28.85.112/-/3ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:39:22)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 12096
-hostname: PAFSH-D1154
-
-2018-06-07 17:35:39,290 ERROR 10976 [-/10.28.85.112/-/12ms POST /api/common/uploadfile] nodejs.TypeError: Cannot read property 'writeFile' of undefined
-    at CommonController.uploadfile (d:\Program Files\demo\eggjs_node\app\controller\common.js:40:22)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10976
-hostname: PAFSH-D1154
-
-2018-06-07 18:04:45,630 ERROR 10672 [-/10.28.85.112/-/15ms POST /api/common/uploadfile] nodejs.TypeError: Invalid non-string/buffer chunk
-    at validChunk (_stream_writable.js:254:10)
-    at WriteStream.Writable.write (_stream_writable.js:288:21)
-    at CommonController.uploadfile (D:\Program Files\demo\eggjs_node\app\controller\common.js:41:18)
-    at <anonymous>
-    at process._tickCallback (internal/process/next_tick.js:188:7)
-
-pid: 10672
-hostname: PAFSH-D1154
-
-2018-06-08 09:06:41,421 ERROR 4464 A client (::ffff:10.28.85.145:50375) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-08 09:06:52,049 ERROR 4464 A client (::ffff:10.28.85.95:59958) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-08 09:06:53,127 ERROR 4464 A client (::ffff:10.28.85.37:50397) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-08 09:07:49,327 ERROR 4464 A client (::ffff:10.28.85.62:54393) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-08 09:15:39,531 ERROR 4464 A client (::ffff:10.28.85.84:59097) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-08 09:50:36,739 ERROR 4464 A client (::ffff:10.28.85.207:58686) error [HPE_INVALID_METHOD] occurred: Parse Error
-2018-06-08 10:12:34,111 ERROR 10808 [-/10.28.85.112/-/195ms POST /api/user/login] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
+2018-06-09 10:05:41,915 ERROR 6484 A client (::ffff:10.28.85.37:50291) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-09 15:08:29,365 ERROR 6484 A client (::ffff:10.28.85.34:62994) error [HPE_INVALID_METHOD] occurred: Parse Error
+2018-06-09 15:24:08,261 ERROR 11652 [-/10.28.85.112/-/8ms GET /api/content/page] nodejs.ER_PARSE_ERRORError: ER_PARSE_ERROR: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'SELECtT content.* , user.* FROM content LEFT JOIN user ON content.user_id = user' at line 1
     at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
     at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
     at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
@@ -291,113 +22,105 @@ hostname: PAFSH-D1154
     at proto.query.next (<anonymous>)
     at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
     at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
-    sql: SELECT * FROM `user` WHERE `account` = '发达' LIMIT 0, 1
-code: 'ER_CANT_AGGREGATE_2COLLATIONS'
-errno: 1267
-sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
-sqlState: 'HY000'
+    sql: SELECtT content.* , user.* FROM content LEFT JOIN user ON content.user_id = user.id ORDER BY update_time
+code: 'ER_PARSE_ERROR'
+errno: 1064
+sqlMessage: 'You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near \'SELECtT content.* , user.* FROM content LEFT JOIN user ON content.user_id = user\' at line 1'
+sqlState: '42000'
 index: 0
-sql: 'SELECT * FROM `user` WHERE `account` = \'发达\' LIMIT 0, 1'
-name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
-pid: 10808
+sql: 'SELECtT content.* , user.* FROM content LEFT JOIN user ON content.user_id = user.id ORDER BY update_time'
+name: 'ER_PARSE_ERRORError'
+pid: 11652
 hostname: PAFSH-D1154
 
-2018-06-08 10:48:28,053 ERROR 10808 [-/10.28.85.112/-/3ms GET /api/user/checkUser?value=%E5%A4%A7&type=2] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
-    at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
-    at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
-    at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
-    at Parser.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
-    at Protocol.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
-    at Socket.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
-    at emitOne (events.js:116:13)
-    at Socket.emit (events.js:211:7)
-    at addChunk (_stream_readable.js:263:12)
-    at readableAddChunk (_stream_readable.js:250:11)
-    --------------------
-    at Pool.query (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
-    at d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
-    at new Promise (<anonymous>)
-    at Pool.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
-    at Pool.ret [as query] (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
-    at RDSClient.proto._query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
-    at RDSClient.proto.query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
-    at proto.query.next (<anonymous>)
-    at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
-    at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
-    sql: SELECT * FROM `user` WHERE `nickname` = '大' LIMIT 0, 1
-code: 'ER_CANT_AGGREGATE_2COLLATIONS'
-errno: 1267
-sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
-sqlState: 'HY000'
-index: 0
-sql: 'SELECT * FROM `user` WHERE `nickname` = \'大\' LIMIT 0, 1'
-name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
-pid: 10808
+2018-06-09 15:38:28,556 ERROR 10360 [-/10.28.85.112/-/167ms POST /api/content/add] nodejs.SyntaxError: Identifier 'data' has already been declared
+    at ContentController.add (d:\Program Files\demo\eggjs_node\app\controller\content.js:16:50)
+    at Object.callFn (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 10360
 hostname: PAFSH-D1154
 
-2018-06-08 10:48:50,455 ERROR 10808 [-/10.28.85.112/-/2ms GET /api/user/checkUser?value=%E7%AC%AC%E4%B8%89%E4%BB%A3&type=1] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
-    at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
-    at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
-    at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
-    at Parser.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
-    at Protocol.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
-    at Socket.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
-    at emitOne (events.js:116:13)
-    at Socket.emit (events.js:211:7)
-    at addChunk (_stream_readable.js:263:12)
-    at readableAddChunk (_stream_readable.js:250:11)
-    --------------------
-    at Pool.query (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
-    at d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
-    at new Promise (<anonymous>)
-    at Pool.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
-    at Pool.ret [as query] (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
-    at RDSClient.proto._query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
-    at RDSClient.proto.query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
-    at proto.query.next (<anonymous>)
-    at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
-    at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
-    sql: SELECT * FROM `user` WHERE `account` = '第三代' LIMIT 0, 1
-code: 'ER_CANT_AGGREGATE_2COLLATIONS'
-errno: 1267
-sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
-sqlState: 'HY000'
-index: 0
-sql: 'SELECT * FROM `user` WHERE `account` = \'第三代\' LIMIT 0, 1'
-name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
-pid: 10808
+2018-06-09 15:39:17,893 ERROR 11652 [-/10.28.85.112/-/16ms POST /api/content/add] nodejs.TypeError: Cannot set property 'created_time' of undefined
+    at ContentService.add (d:\Program Files\demo\eggjs_node\app\service\content.js:24:27)
+    at ContentController.add (d:\Program Files\demo\eggjs_node\app\controller\content.js:16:50)
+    at Object.callFn (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11652
 hostname: PAFSH-D1154
 
-2018-06-08 10:55:31,303 ERROR 10808 [-/10.28.85.112/-/1ms GET /api/user/checkUser?value=%E9%83%BD%E6%98%AF&type=2] nodejs.ER_CANT_AGGREGATE_2COLLATIONSError: ER_CANT_AGGREGATE_2COLLATIONS: Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation '='
-    at Query.Sequence._packetToError (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Sequence.js:52:14)
-    at Query.ErrorPacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\sequences\Query.js:77:18)
-    at Protocol._parsePacket (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:279:23)
-    at Parser.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Parser.js:76:12)
-    at Protocol.write (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\protocol\Protocol.js:39:16)
-    at Socket.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Connection.js:103:28)
-    at emitOne (events.js:116:13)
-    at Socket.emit (events.js:211:7)
-    at addChunk (_stream_readable.js:263:12)
-    at readableAddChunk (_stream_readable.js:250:11)
-    --------------------
-    at Pool.query (d:\Program Files\demo\eggjs_node\node_modules\mysql\lib\Pool.js:199:23)
-    at d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:29:7
-    at new Promise (<anonymous>)
-    at Pool.<anonymous> (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:12:10)
-    at Pool.ret [as query] (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\node_modules\pify\index.js:56:34)
-    at RDSClient.proto._query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\client.js:34:20)
-    at RDSClient.proto.query (d:\Program Files\demo\eggjs_node\node_modules\ali-rds\lib\operator.js:54:29)
-    at proto.query.next (<anonymous>)
-    at onFulfilled (d:\Program Files\demo\eggjs_node\node_modules\co\index.js:65:19)
-    at d:\Program Files\demo\eggjs_node\node_modules\co\index.js:54:5
-    sql: SELECT * FROM `user` WHERE `nickname` = '都是' LIMIT 0, 1
-code: 'ER_CANT_AGGREGATE_2COLLATIONS'
-errno: 1267
-sqlMessage: 'Illegal mix of collations (latin1_swedish_ci,IMPLICIT) and (utf8_general_ci,COERCIBLE) for operation \'=\''
-sqlState: 'HY000'
-index: 0
-sql: 'SELECT * FROM `user` WHERE `nickname` = \'都是\' LIMIT 0, 1'
-name: 'ER_CANT_AGGREGATE_2COLLATIONSError'
-pid: 10808
+2018-06-09 15:39:33,126 ERROR 11652 [-/10.28.85.112/-/2ms POST /api/content/add] nodejs.TypeError: Cannot set property 'created_time' of undefined
+    at ContentService.add (d:\Program Files\demo\eggjs_node\app\service\content.js:24:27)
+    at ContentController.add (d:\Program Files\demo\eggjs_node\app\controller\content.js:16:50)
+    at Object.callFn (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (d:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at d:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (d:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+
+pid: 11652
 hostname: PAFSH-D1154
 
+2018-06-09 15:42:05,630 ERROR 9884 [-/10.28.85.112/-/30ms POST /api/content/add] nodejs.TypeError: Cannot set property 'created_time' of undefined
+    at ContentController.add (D:\Program Files\demo\eggjs_node\app\controller\content.js:16:27)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 9884
+hostname: PAFSH-D1154
+
+2018-06-09 15:42:20,902 ERROR 11316 [-/10.28.85.112/-/25ms POST /api/content/add] nodejs.TypeError: Cannot set property 'created_time' of undefined
+    at ContentController.add (D:\Program Files\demo\eggjs_node\app\controller\content.js:16:27)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 11316
+hostname: PAFSH-D1154
+
+2018-06-09 15:42:59,769 ERROR 11316 [-/10.28.85.112/-/23060ms POST /api/content/add] nodejs.TypeError: Cannot set property 'created_time' of undefined
+    at ContentController.add (D:\Program Files\demo\eggjs_node\app\controller\content.js:16:27)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at Object.classControllerMiddleware (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\loader\mixin\controller.js:87:20)
+    at Object.callFn (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\index.js:36:21)
+    at wrappedController (D:\Program Files\demo\eggjs_node\node_modules\egg-core\lib\utils\router.js:322:18)
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at next (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:45:18)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\lib\router.js:346:16
+    at dispatch (D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:44:32)
+    at D:\Program Files\demo\eggjs_node\node_modules\koa-router\node_modules\koa-compose\index.js:36:12
+
+pid: 11316
+hostname: PAFSH-D1154
+
+2018-06-09 16:07:18,666 ERROR 11660 A client (::ffff:10.28.85.209:53629) error [HPE_INVALID_METHOD] occurred: Parse Error

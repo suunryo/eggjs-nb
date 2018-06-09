@@ -12,5 +12,6 @@ module.exports = app => {
 	router.get(baseRoute+'/user/logout', controller.user.logout)
 
 	router.get(baseRoute+'/content/page', controller.content.page)
+	router.post(baseRoute+'/content/add', controller.content.add)
 
 }
